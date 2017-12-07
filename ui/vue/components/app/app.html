@@ -1,4 +1,1 @@
-<svg style="border:dotted 1px black; width:100vw; height:100vh" viewbox="0 0 100 100">
-	<graph v-for="graph in diagram.links" :source="graph.source" :target="graph.target"/>
-	<node v-for="node in diagram.nodes" :x="node.x" :y="node.y" :title="node.text"/>
-</svg>
+<diagram :nodes="diagram.nodes" :links="diagram.links" />

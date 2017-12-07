@@ -4,7 +4,7 @@ define(['treeCalculator', 'text!./app.html'], function(treeCalculator, template)
 	  props: ['datasource'],
 	  data: function() {
 	    return {
-			"diagram": {
+			"diagram" : {
 				"nodes": null,
 				"links": null
 			}

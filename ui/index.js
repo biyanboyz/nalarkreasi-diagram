@@ -4,9 +4,16 @@ requirejs.config({
 		"treeCalculator": "./library/treecalculator.d3"
 	}
 });
-require(['text!./library/svgpan.js', './vue/components/app/app', './vue/components/node/node', './vue/components/graph/graph'], function(
+require([
+	'text!./library/svgpan.js', 
+	'./vue/components/app/app', 
+	'./vue/components/diagram/diagram', 
+	'./vue/components/node/node', 
+	'./vue/components/graph/graph'
+], function(
 		panZoom,
 		vueComponent_app,
+		vueComponent_diagram,
 		vueComponent_node,
 		vueComponent_graph
 	){
@@ -14,6 +21,7 @@ require(['text!./library/svgpan.js', './vue/components/app/app', './vue/componen
 	  el: '#app',
 	  components: {
 		  vueComponent_app,
+		  vueComponent_diagram,
 		  vueComponent_node,
 		  vueComponent_graph
 	  }
