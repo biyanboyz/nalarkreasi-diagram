@@ -1,0 +1,4191 @@
+{
+	"root": {
+		"id": "gnmlfyil",
+		"text": "nasidev",
+		"layout": "graph-right",
+		"children": [
+			{
+				"id": "fhrpovki",
+				"text": "Iterasi #1",
+				"side": "right",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "zimkybbd",
+						"text": "Lain-lain"
+					},
+					{
+						"id": "jgymtxxh",
+						"text": "Definitif"
+					},
+					{
+						"id": "owejevfy",
+						"text": "Definitif (Lengkap)"
+					},
+					{
+						"id": "baxynplp",
+						"text": "Pengenalan Langkah-demi-langkah",
+						"children": [
+							{
+								"id": "xxcclrmn",
+								"text": "Komputer &amp; Pemrograman",
+								"children": [
+									{
+										"id": "nqphwixb",
+										"text": "Di zaman modern ini, apa itu komputer?",
+										"children": [
+											{
+												"id": "icapvhmj",
+												"text": "Perangkat yang terdiri dari...",
+												"children": [
+													{
+														"id": "veejeeyq",
+														"text": "Hardware",
+														"children": [
+															{
+																"id": "lepzebor",
+																"text": "...yakni perangkat yang ada secara fisik (tak hanya bisa dilihat tapi juga bisa disentuh)"
+															}
+														]
+													},
+													{
+														"id": "dodckhje",
+														"text": "Software",
+														"children": [
+															{
+																"id": "vsmzickx",
+																"text": "...yakni perangkat tidak ada secara fisik (tidak bisa disentuh)"
+															},
+															{
+																"id": "xnqodwte",
+																"text": "...namun berisi...",
+																"children": [
+																	{
+																		"id": "vqmkufkc",
+																		"text": "data"
+																	},
+																	{
+																		"id": "cmjstilx",
+																		"text": "informasi"
+																	},
+																	{
+																		"id": "gacfmysm",
+																		"text": "program",
+																		"children": [
+																			{
+																				"id": "xorjehaa",
+																				"text": "...yakni sekumpulan perintah-perintah instruksi yang akan dijalankan dari awal hingga akhir program oleh sang komputer"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "supokqse",
+												"text": "...untuk melakukan rutin input-proses-output yakni...",
+												"children": [
+													{
+														"id": "rapncrrq",
+														"text": "...menerima masukan berupa &lt;input&gt;..."
+													},
+													{
+														"id": "quhojxvs",
+														"text": "...lalu kemudian input itu di&lt;proses&gt; sesuai keinginan..."
+													},
+													{
+														"id": "osmczyqx",
+														"text": "...yang akhirnya menghasilkan keluaran berupa &lt;output&gt;"
+													}
+												]
+											},
+											{
+												"id": "uvibbysb",
+												"text": "...dan bersifat reprogrammable"
+											}
+										]
+									},
+									{
+										"id": "mphpiezc",
+										"text": "Sifat reprogrammable",
+										"children": [
+											{
+												"id": "esipkxbj",
+												"text": "...yakni berarti...",
+												"children": [
+													{
+														"id": "xinqeayp",
+														"text": "1. Katakanlah saya memiliki komputer A (yang berasal dari era mekanikal/tabung vakum/IC/dlsb.)"
+													},
+													{
+														"id": "bafgxjhq",
+														"text": "2. Saat ini, komputer A bertugas suatu tugas, misalnya menghitung volume balok",
+														"children": [
+															{
+																"id": "cthmffvh",
+																"text": "...yang berarti komputer tersebut meminta 3 input yakni",
+																"children": [
+																	{
+																		"id": "nrydyflh",
+																		"text": "panjang"
+																	},
+																	{
+																		"id": "afhjrgiw",
+																		"text": "lebar"
+																	},
+																	{
+																		"id": "capjeavb",
+																		"text": "tinggi"
+																	}
+																]
+															},
+															{
+																"id": "pbnikwfz",
+																"text": "...untuk lalu diproses dengan rumus panjang*lebar*tinggi"
+															},
+															{
+																"id": "wuhjvyrb",
+																"text": "...untuk lalu menghasilkan keluaran berupa volume balok tersebut"
+															}
+														]
+													},
+													{
+														"id": "zndrurse",
+														"text": "3. Namun, seiring kebutuhan saya (pengguna komputer) berubah, saya pun ingin merubah tugas komputer A itu, misalnya saya sekarang inginnya komputer A menghitung diskon"
+													},
+													{
+														"id": "vespjqpj",
+														"text": "4. Maka komputer A bisa diprogram ulang sehingga sekarang menghitung diskon",
+														"children": [
+															{
+																"id": "bzeqkyel",
+																"text": "...yang berarti komputer tersebut sekarang meminta 2 input yakni",
+																"children": [
+																	{
+																		"id": "wcwbvbne",
+																		"text": "harga barang yang ingin didiskon"
+																	},
+																	{
+																		"id": "rjpdvrje",
+																		"text": "diskon itu sendiri"
+																	}
+																]
+															},
+															{
+																"id": "erfaepft",
+																"text": "...untuk lalu diproses dengan rumus harga barang-(harga barang/diskon*100)"
+															},
+															{
+																"id": "xkixspql",
+																"text": "...untuk lalu menghasilkan keluaran berupa harga barang yang telah didiskon"
+															}
+														]
+													},
+													{
+														"id": "eloqlxtf",
+														"text": "...tanpa perlu membeli dan mengganti komputer baru ;-)"
+													}
+												]
+											},
+											{
+												"id": "hnkwkfay",
+												"text": "Pentingnya memahami manfaat dan skala betapa hebatnya sifat reprogrammable komputer zaman modern",
+												"children": [
+													{
+														"id": "sxjqfjdc",
+														"text": "1. Sebelum zaman modern, terdapat beberapa masalah yang ingin diselesaikan oleh para pabrikan komponen komputer, yakni...",
+														"children": [
+															{
+																"id": "hjgagrjm",
+																"text": "1. Pengguna komputer bisa extend fungsi komputer miliknya secara hardware dengan lebih leluasa",
+																"children": [
+																	{
+																		"id": "qsguwpni",
+																		"text": "Sehingga...",
+																		"children": [
+																			{
+																				"id": "gewhrvgo",
+																				"text": "...jika andaikata...",
+																				"children": [
+																					{
+																						"id": "riikvvvj",
+																						"text": "...si pemilik komputer tidak memiliki kebutuhan khusus terhadap komputernya saat pertama kali membeli namun tiba-tiba muncul kebutuhan khusus sesudah membeli..."
+																					},
+																					{
+																						"id": "watuxjlh",
+																						"text": "...atau si pemilik komputer memang memiliki kebutuhan khusus terhadap komputernya saat pertama kali membeli namun baru sanggup membiaya kebutuhan tersebut sesudah membeli..."
+																					}
+																				]
+																			},
+																			{
+																				"id": "ojigasub",
+																				"text": "...maka terdapat suatu fitur yang memungkinkan pengguna komputer tersebut menambah fungsi komputer miliknya secara hardware tanpa mengganti komputer tersebut secara keseluruhan"
+																			},
+																			{
+																				"id": "irqkglrc",
+																				"text": "Jadi misalkan",
+																				"children": [
+																					{
+																						"id": "fpghatjd",
+																						"text": "1. Saya membeli sebuah komputer"
+																					},
+																					{
+																						"id": "nwplbigk",
+																						"text": "2. Beberapa bulan kemudian, saya tiba-tiba memiliki minat musik. Karena sudah punya uang, saya membeli Keyboard musik dan pad controller"
+																					},
+																					{
+																						"id": "ogzmonpk",
+																						"text": "3. Saya rasa akan sangat menarik jika dengan keyboard saya dan memanfaatkan komputer saya, saya bisa bermain lagu namun dengan sintesis suara yang dihasilkan oleh komputer",
+																						"children": [
+																							{
+																								"id": "oeslkwcz",
+																								"text": "(Biasanya pada kasus dunia nyata, hal ini biasa terjadi lantaran sintesis suara oleh komputer bisa \"lebih pintar, kaya, variatif dan berkualitas\" ketimbang keyboard musik yang sintesis suaranya itu-itu saja)"
+																							}
+																						]
+																					},
+																					{
+																						"id": "joxmyjtg",
+																						"text": "4. Keyboard musik dan pad controller saya memiliki kabel antarmuka MIDI, tapi di komputer saya, saya tidak bisa melihat adanya port untuk antarmuka MIDI tersebut"
+																					},
+																					{
+																						"id": "qpqwsolu",
+																						"text": "5. Saya pun membeli konektor MIDI-USB, yang akhirnya saya bisa menghubungkan komputer dan perangkat musik saya dengan konektor tersebut"
+																					},
+																					{
+																						"id": "ldyauvyq",
+																						"text": "6. Sadar tidak sadar, komputer saya memiliki fungsi baru, yakni bisa menerima masukan tuts keyboard musik saya dan mengolahnya dengan sintesis suara yang ada pada komputer tersebut, jika dibandingkan dengan biasanya komputer saya hanya dipakai untuk keperluan office"
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"id": "xtoedvyk",
+																"text": "2. Decoupling/pemisahan oleh pihak pabrikan komponen komputer yang menyebabkan ketidaktergantungan",
+																"children": [
+																	{
+																		"id": "vdtyumkg",
+																		"text": "Jadi bisa dibilang",
+																		"children": [
+																			{
+																				"id": "dbnctlzf",
+																				"text": "1. Pengguna bisa extend fungsi komputer secara hardware dengan leluasa kapan saja, namun..."
+																			},
+																			{
+																				"id": "dsbzspcx",
+																				"text": "2. Pabrikan ASUS tetap bisa hanya fokus pada kualitas Motherboard yang mereka buat"
+																			},
+																			{
+																				"id": "sbyqupdj",
+																				"text": "<span style=\"font-size: 14.4px;\">3. Pabrikan Yamaha tetap bisa hanya fokus pada kualitas keyboard musik yang mereka buat</span>"
+																			},
+																			{
+																				"id": "pygnnkkw",
+																				"text": "4. Pabrikan Akai tetap bisa hanya fokus pada kualitas MIDI controller yang mereka buat"
+																			},
+																			{
+																				"id": "oxomafen",
+																				"text": "5. Baik/buruknya pabrikan ASUS/Yamaha/Akai tidak akan mempengaruhi baik/buruknya pabrikan lain"
+																			},
+																			{
+																				"id": "bsxiscxc",
+																				"text": "6. Hal ini akan berbeda bila ternyata definisi komputer sejak dari awal beli sudah secara kaku terlebur atas Motherboard, Keyboard Musik dan MIDI Controller dan itu semua dibuat oleh satu pabrik"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"id": "klrrjpxb",
+														"text": "2. Maka untuk itu",
+														"children": [
+															{
+																"id": "exqzbwjr",
+																"text": "Untuk fitur extend hardware secara leluasa dibutuhkan",
+																"children": [
+																	{
+																		"id": "vcedotqn",
+																		"text": "...kesepakatan spesifikasi..."
+																	},
+																	{
+																		"id": "ogpgjhuy",
+																		"text": "...yang memungkinkan...",
+																		"children": [
+																			{
+																				"id": "noouxjxl",
+																				"text": "...satu komponen dengan yang lain..."
+																			},
+																			{
+																				"id": "ehahpnjg",
+																				"text": "...berkomunikasi dengan baik"
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"id": "umutztuz",
+																"text": "Untuk fitur extend software secara leluasa, yang bisa dibilang salah satu hal yang sangat penting untuk memahami konsep pemrograman,",
+																"children": [
+																	{
+																		"id": "dssqavoh",
+																		"text": "...mengingat...",
+																		"children": [
+																			{
+																				"id": "xbsamusl",
+																				"text": "...sebenarnya saat komputer melakukan Proses (dari keseluruhan"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"id": "hihrpzzi",
+														"text": "1.&nbsp; Jika dilihat komputer zaman sekarang, tingkat reprogrammable-nya cukup tinggi",
+														"children": [
+															{
+																"id": "dbxhdiet",
+																"text": "1. Pertama-tama, saya beli komputer dengan OS terinstall, belum bisa berbuat banyak"
+															},
+															{
+																"id": "qtsttnyf",
+																"text": "2. Lalu misalnya saya install software SPSS, komputer saya bisa menghitung statistika untuk tugas PR-PR saya"
+															},
+															{
+																"id": "vtpvyscl",
+																"text": "3. Lalu misalnya saya install software Winamp, hal yang bisa komputer saya&nbsp; kerjakan saat ini bertambah",
+																"children": [
+																	{
+																		"id": "igxspqsl",
+																		"text": "Bisa hitung statistika"
+																	},
+																	{
+																		"id": "mhmjysux",
+																		"text": "Bisa putar lagu"
+																	}
+																]
+															},
+															{
+																"id": "mlwfvjyz",
+																"text": "4. Lalu misalnya saya install software Photoshop, hal yang bisa komputer saya kerjakan saat ini bertambah",
+																"children": [
+																	{
+																		"id": "mtdlfhwk",
+																		"text": "Bisa hitung statistika"
+																	},
+																	{
+																		"id": "qmfwyprc",
+																		"text": "Bisa&nbsp;"
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "qiuactzn",
+										"text": "Berdasarkan platform hardware",
+										"children": [
+											{
+												"id": "hsukzlcu",
+												"text": "PC x86"
+											},
+											{
+												"id": "lctzfxtn",
+												"text": "Mac"
+											},
+											{
+												"id": "ucjieqba",
+												"text": "ARM"
+											}
+										]
+									},
+									{
+										"id": "vdzbwpfy",
+										"text": "Berdasarkan ISA prosesor",
+										"children": [
+											{
+												"id": "xsirlyfp",
+												"text": "x86 CISC<br>"
+											},
+											{
+												"id": "vxfbadbq",
+												"text": "ARM RISC"
+											}
+										]
+									},
+									{
+										"id": "agwnsqtu",
+										"text": "Era &amp; Sejarahnya",
+										"children": [
+											{
+												"id": "cuipblcl",
+												"text": "Generasi Pertama : Mekanikal"
+											},
+											{
+												"id": "tcqiosiw",
+												"text": "Generasi Kedua : Tabung Vakum"
+											},
+											{
+												"id": "bmbawqgq",
+												"text": "Generasi Ketiga : IC"
+											},
+											{
+												"id": "utscnvkn",
+												"text": "Generasi Keempat : IC VLSI"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "seekcqdk",
+				"text": "PPTX OG",
+				"side": "left",
+				"collapsed": 1,
+				"children": [
+					{
+						"id": "pecvzhxj",
+						"text": "PPTX #1 (20171120)",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "knpwjvcp",
+								"text": "Hazards Ahead"
+							},
+							{
+								"id": "anwtoldt",
+								"text": "How (i hope) it'll be done"
+							},
+							{
+								"id": "jqpzshao",
+								"text": "Latar Belakang &amp; Motivasi",
+								"children": [
+									{
+										"id": "qbiwohio",
+										"text": "WELCOME TO UNAS"
+									},
+									{
+										"id": "jlnkmfwk",
+										"text": "UNAS &amp; Jurusan-Jurusannya"
+									},
+									{
+										"id": "pokktskp",
+										"text": "After-SD-SMP-SMK-S1 : Here's what matters the most"
+									},
+									{
+										"id": "cfdwrkgn",
+										"text": "SI as Leverage to other businesses"
+									},
+									{
+										"id": "sgbgaeim",
+										"text": "<span style=\"font-size: 14.4px;\">After-SD-SMP-SMK-S1 : Here's what matters the most</span>"
+									},
+									{
+										"id": "cxxmzxrb",
+										"text": "Job Desc : Example from Security Officer"
+									},
+									{
+										"id": "dgnxuvoz",
+										"text": "After-SD-SMP-SMK-S1 : Kelabakan kerja SI tiap hari"
+									},
+									{
+										"id": "oeopxota",
+										"text": "*gambar koding ribet*"
+									},
+									{
+										"id": "ogdnhgfg",
+										"text": "<span style=\"font-size: 14.4px;\">After-SD-SMP-SMK-S1 : So everything you went through here...is for the sake of here</span>"
+									},
+									{
+										"id": "rqpydqpz",
+										"text": "Our jobs isn’t fixed-iteration repetitive jobs!",
+										"children": [
+											{
+												"id": "yvfcpfka",
+												"text": "Problem-&gt;Solution"
+											},
+											{
+												"id": "hdhabylz",
+												"text": "Loket vs SI"
+											},
+											{
+												"id": "pxgfqxbv",
+												"text": "3 Macam Lulusan S1 SI",
+												"children": [
+													{
+														"id": "xvocmnrn",
+														"text": "3 macam",
+														"children": [
+															{
+																"id": "rdfegckp",
+																"text": "I cant even code XDDDD"
+															},
+															{
+																"id": "jxpynjsd",
+																"text": "I can code web apps"
+															},
+															{
+																"id": "eqlcjlzo",
+																"text": "I can improve stuffs"
+															}
+														]
+													},
+													{
+														"id": "stjqkyyl",
+														"text": "Perbandingan Tier"
+													}
+												]
+											},
+											{
+												"id": "pjkcpurz",
+												"text": "Abstract Texts"
+											},
+											{
+												"id": "tstzlacq",
+												"text": "Software Evolution and its relation with Problem-&gt;Solution"
+											},
+											{
+												"id": "whoeiuax",
+												"text": "Graduates shapes the world"
+											},
+											{
+												"id": "nbpwrqyw",
+												"text": "Powerful Insights &amp; Relate"
+											}
+										]
+									},
+									{
+										"id": "yvbzpneb",
+										"text": "How we should do stuffs",
+										"children": [
+											{
+												"id": "lgaoxogy",
+												"text": "Powerful Insights",
+												"children": [
+													{
+														"id": "nvfyfemj",
+														"text": "\"Ilmu-mu bisa dipakai penerapannya?\""
+													},
+													{
+														"id": "izvqnsaq",
+														"text": "\"Yang selama ini dipelajari bisa memberi gambaran apa saat mencoba menyelesaikan solusi?\""
+													}
+												]
+											},
+											{
+												"id": "pyleaacg",
+												"text": "Relate!",
+												"children": [
+													{
+														"id": "zonjqqmh",
+														"text": "*so close yet so far with the pros*"
+													},
+													{
+														"id": "jmowkojv",
+														"text": "*yet theres need to refresh knowledge with new stuffs*"
+													},
+													{
+														"id": "qjvdslzs",
+														"text": "*from various sources*"
+													},
+													{
+														"id": "eqdprxct",
+														"text": "*decides to train everyday*"
+													},
+													{
+														"id": "adbkfmtg",
+														"text": "*close to the pros*"
+													}
+												]
+											},
+											{
+												"id": "ogaaodlf",
+												"text": "The easiest solution?",
+												"children": [
+													{
+														"id": "yewlcqvz",
+														"text": "Pet Project!"
+													},
+													{
+														"id": "gycdsnml",
+														"text": "Pet Project breakdown"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "ndaqvrpp",
+								"text": "Dari 0",
+								"children": [
+									{
+										"id": "emubdcgv",
+										"text": "Komputer dari abstraksinya dari bawah hingga atas"
+									},
+									{
+										"id": "bypaqtqo",
+										"text": "Jenis Komputer, Pengertian, Input-&gt;Proses-&gt;Output dan perbandingannya dengan kalkulator 4 bit"
+									},
+									{
+										"id": "fvaiglhc",
+										"text": "Stored-program Architecture agar AIO"
+									},
+									{
+										"id": "iulifopz",
+										"text": "CPU dan Assembler"
+									},
+									{
+										"id": "dpnrhnnl",
+										"text": "Penyimpanan RAM dan Harddisk"
+									},
+									{
+										"id": "nhuqpqcn",
+										"text": "Filesystem Windows vs Linux"
+									},
+									{
+										"id": "sccmgpkc",
+										"text": "Cabang Ilmu Windows"
+									},
+									{
+										"id": "qozyyqro",
+										"text": "Anatomi Proses Windows"
+									},
+									{
+										"id": "jjbegbva",
+										"text": "Format PE Windows"
+									},
+									{
+										"id": "zxylptec",
+										"text": "Kompilasi C++"
+									}
+								]
+							},
+							{
+								"id": "emkncfmx",
+								"text": "Pemrograman Web",
+								"children": [
+									{
+										"id": "cospkttg",
+										"text": "*gambar kumpulan software untuk dev*"
+									},
+									{
+										"id": "qfugifzr",
+										"text": "<span style=\"font-size: 14.4px;\">*gambar kumpulan software untuk dev, in grid*</span>"
+									},
+									{
+										"id": "rvwovmzp",
+										"text": "Software untuk P. Web"
+									},
+									{
+										"id": "hfxsexff",
+										"text": "<span style=\"font-size: 12.8px;\">Software untuk P. Web, eliminasi 1</span>"
+									},
+									{
+										"id": "gzoddkrd",
+										"text": "<span style=\"font-size: 12.8px;\">Software untuk P. Web, eliminasi 2</span>"
+									},
+									{
+										"id": "pkgzqyey",
+										"text": "Kenapa Web?"
+									},
+									{
+										"id": "qmctfsju",
+										"text": "Let's get started!",
+										"children": [
+											{
+												"id": "njlrqasy",
+												"text": "Protokol HTTP (penting)",
+												"children": [
+													{
+														"id": "wboibwfi",
+														"text": "*protokol HTTP*"
+													},
+													{
+														"id": "wfozbwpd",
+														"text": "Virtual Host"
+													},
+													{
+														"id": "jizupwlp",
+														"text": "Web Statis"
+													},
+													{
+														"id": "mxifuutu",
+														"text": "HTML",
+														"children": [
+															{
+																"id": "nzhsflzc",
+																"text": "Apa itu"
+															},
+															{
+																"id": "poagkhzi",
+																"text": "Elemen HTML, tag buka dan tag tutup"
+															},
+															{
+																"id": "poxvheml",
+																"text": "Elemen dengan Tag langsung tutup"
+															},
+															{
+																"id": "jmgivimh",
+																"text": "Attribut"
+															},
+															{
+																"id": "ptiffitr",
+																"text": "Bedah elemen contoh 1, 2, 3 dan 4"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "wagpmprq",
+						"text": "PPTX #1 Part 2",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "gobulkcb",
+								"text": "HTML",
+								"children": [
+									{
+										"id": "hzudhcrg",
+										"text": "Tabel"
+									},
+									{
+										"id": "lnxhfpjf",
+										"text": "Div"
+									}
+								]
+							},
+							{
+								"id": "jmzukwlm",
+								"text": "CSS",
+								"children": [
+									{
+										"id": "ddxkyqeu",
+										"text": "3 pilihan cara memanggil CSS"
+									},
+									{
+										"id": "wynperda",
+										"text": "Anatomi CSS"
+									},
+									{
+										"id": "wputcrec",
+										"text": "Jenis Selector",
+										"children": [
+											{
+												"id": "uarlmood",
+												"text": "Berdasarkan Selector"
+											},
+											{
+												"id": "yhutwvjn",
+												"text": "Berdasarkan Lanjutannya"
+											},
+											{
+												"id": "yccopdas",
+												"text": "Selector Attribut"
+											}
+										]
+									},
+									{
+										"id": "frfdhlpn",
+										"text": "Properti yang sekiranya menarik"
+									}
+								]
+							},
+							{
+								"id": "pygxxdeh",
+								"text": "MySQL",
+								"children": [
+									{
+										"id": "gqhstrmx",
+										"text": "Bagian dasar MySQL"
+									},
+									{
+										"id": "jqpvtokv",
+										"text": "Tabel MySQL",
+										"children": [
+											{
+												"id": "hgnriryf",
+												"text": "*gambar*"
+											},
+											{
+												"id": "kqlzlatm",
+												"text": "Tiap Kolom"
+											}
+										]
+									},
+									{
+										"id": "graupkcc",
+										"text": "Kueri MySQL",
+										"children": [
+											{
+												"id": "ejwkndoi",
+												"text": "Definitif",
+												"children": [
+													{
+														"id": "zeoshgry",
+														"text": "Buat Database"
+													},
+													{
+														"id": "oeszqbae",
+														"text": "Buat Tabel"
+													}
+												]
+											},
+											{
+												"id": "mccznafs",
+												"text": "Manipulatif",
+												"children": [
+													{
+														"id": "vgagcrmz",
+														"text": "Baca data"
+													},
+													{
+														"id": "llcrdfen",
+														"text": "Baca data + Where"
+													},
+													{
+														"id": "lkexpmtw",
+														"text": "Tambah data + Keterangan kolom"
+													},
+													{
+														"id": "oxduitxc",
+														"text": "Tambah data tanpa keterangan kolom"
+													},
+													{
+														"id": "lhxxszxq",
+														"text": "Ubah data pada tabel"
+													},
+													{
+														"id": "wprtmife",
+														"text": "Hapus data pada tabel"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "wrpmaudb",
+						"text": "PPTX Ajakan",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "xqygzmnj",
+								"text": "UNAS dan Jurusannya"
+							},
+							{
+								"id": "braxnxvs",
+								"text": "Sistem &amp; Informasi"
+							},
+							{
+								"id": "yyhtfcjw",
+								"text": "*gambaran Sistem &amp; Informasi*"
+							},
+							{
+								"id": "flfeoqls",
+								"text": "*yang dikerjakan SI*"
+							},
+							{
+								"id": "udkfczzj",
+								"text": "*Apa yang ada di kuliah, Apa yang ada di luar sana, Saingan, Apa yang ada di lowongan kerja + After-SD-SMP-SMK:Here's what matters the most!*"
+							},
+							{
+								"id": "zutmnalu",
+								"text": "\"Can you survive?\" *gambar rekrut kerja, coding tiap hari, gambaran bingung*"
+							},
+							{
+								"id": "pxoweiie",
+								"text": "<div>\"Could you solve the problems that people asking for???\"</div>"
+							},
+							{
+								"id": "aaibnirg",
+								"text": "The Strategies",
+								"children": [
+									{
+										"id": "ixqucnwt",
+										"text": "Powerful Insights",
+										"children": [
+											{
+												"id": "xtnksgwy",
+												"text": "<span style=\"font-size: 9.6px;\">\"Ilmu-mu bisa dipakai penerapannya?\"</span>"
+											},
+											{
+												"id": "lbgjrcoi",
+												"text": "<div>Hey, could you make me software that : Input donasi zakat</div>"
+											},
+											{
+												"id": "zcuzebfh",
+												"text": "<div>Hey, could you make me software that :&nbsp;Bisa bikin Surat Tugas</div>"
+											},
+											{
+												"id": "seknuprv",
+												"text": "Hafalan vs Nyusun"
+											}
+										]
+									},
+									{
+										"id": "paptqadd",
+										"text": "Relate!",
+										"children": [
+											{
+												"id": "bzxanump",
+												"text": "*so close yet so far with the pros*"
+											},
+											{
+												"id": "hiitakyz",
+												"text": "*yet theres need to refresh knowledge with new stuffs*"
+											},
+											{
+												"id": "vkkfjxqt",
+												"text": "*from various sources*"
+											},
+											{
+												"id": "cexudrbz",
+												"text": "*decides to train everyday*"
+											},
+											{
+												"id": "sotmpmew",
+												"text": "*close to the pros*"
+											}
+										]
+									},
+									{
+										"id": "bmzdicay",
+										"text": "The easiest solution?",
+										"children": [
+											{
+												"id": "ccklvnos",
+												"text": "Pet Project!"
+											},
+											{
+												"id": "pvwzpynk",
+												"text": "Pet Project breakdown"
+											},
+											{
+												"id": "ocpwrucx",
+												"text": "*contoh mockup*"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "anqkwskn",
+								"text": "KPI: \"Bisa bikin web dan dengan PD bisa kasih durasi\""
+							},
+							{
+								"id": "wjmrguyg",
+								"text": "Materi",
+								"children": [
+									{
+										"id": "efxxdawg",
+										"text": "Fundamental Komputer &amp;&nbsp;<span style=\"font-size: 6.4px;\">Pemrograman Web</span>"
+									},
+									{
+										"id": "wsowfggu",
+										"text": "RAM, Harddisk, Partisi"
+									},
+									{
+										"id": "wztzbcpq",
+										"text": "Pemrograman Web",
+										"children": [
+											{
+												"id": "vgxjkbdt",
+												"text": "Protokol HTTP"
+											},
+											{
+												"id": "pcvwnthu",
+												"text": "Sedikit HTML"
+											},
+											{
+												"id": "agjwpqes",
+												"text": "CSS Dasar"
+											},
+											{
+												"id": "jkbbrjwj",
+												"text": "MySQL"
+											},
+											{
+												"id": "ggtsmhmc",
+												"text": "PHP",
+												"children": [
+													{
+														"id": "yrqkqbjo",
+														"text": "Variabel, If"
+													},
+													{
+														"id": "dggfnqvj",
+														"text": "Array"
+													},
+													{
+														"id": "sjatdzmk",
+														"text": "For, While"
+													},
+													{
+														"id": "cxvodwwm",
+														"text": "Class &amp; Objek !!!",
+														"children": [
+															{
+																"id": "xnffxhbc",
+																"text": "*screenshot Class Manusia*"
+															},
+															{
+																"id": "qkjmfmjm",
+																"text": "*screenshot source code PU*"
+															},
+															{
+																"id": "racogrzg",
+																"text": "Konsep Pemrograman Berbasis Objek dan Flask, Laravel dan Phalcon sebagai contoh targetnya"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "wuiumcrb",
+						"text": "PHP Remastered",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "ufkytnlk",
+								"text": "Apa yang bakal anda temukan di PHP",
+								"children": [
+									{
+										"id": "jdztnala",
+										"text": "*gambar coding*"
+									},
+									{
+										"id": "tvasnszp",
+										"text": "Sekumpulan Instruksi yang Dijalankan dari Atas ke Bawah"
+									},
+									{
+										"id": "lkkucrir",
+										"text": "*gambar lapisan ekspresi-statement*"
+									},
+									{
+										"id": "vzcvtllz",
+										"text": "<span style=\"font-size: 9.6px;\">*gambar lapisan ekspresi-statement ke-2*</span><br>"
+									},
+									{
+										"id": "wyttssfl",
+										"text": "*gambar Runtime*"
+									}
+								]
+							},
+							{
+								"id": "geizykcn",
+								"text": "Cara masukin kode PHP"
+							},
+							{
+								"id": "lxbtgwpx",
+								"text": "Var_dump, teman baik para programmer PHP",
+								"children": [
+									{
+										"id": "wgsucxvt",
+										"text": "Pengenalan"
+									},
+									{
+										"id": "ljvhnexk",
+										"text": "Tabel"
+									}
+								]
+							},
+							{
+								"id": "gbfnkfow",
+								"text": "Expression",
+								"children": [
+									{
+										"id": "wawdyrsy",
+										"text": "Pengenalan"
+									},
+									{
+										"id": "paaffrvd",
+										"text": "Elemen",
+										"children": [
+											{
+												"id": "tseyzbwl",
+												"text": "Integer"
+											},
+											{
+												"id": "pshpvybl",
+												"text": "String"
+											},
+											{
+												"id": "fhjftisi",
+												"text": "Float"
+											},
+											{
+												"id": "tydlpgrw",
+												"text": "Boolean"
+											},
+											{
+												"id": "bixuikyk",
+												"text": "Null"
+											},
+											{
+												"id": "pnioakhn",
+												"text": "Array"
+											},
+											{
+												"id": "ljwjboiw",
+												"text": "Objek"
+											},
+											{
+												"id": "erjnedyc",
+												"text": "Variabel"
+											}
+										]
+									},
+									{
+										"id": "vjaespvb",
+										"text": "Aritmatik"
+									},
+									{
+										"id": "tegoghfm",
+										"text": "Perbandingan"
+									},
+									{
+										"id": "lvzgcxzr",
+										"text": "Tambah/Kurang"
+									},
+									{
+										"id": "zgxgodhn",
+										"text": "Logika"
+									},
+									{
+										"id": "rtugovsg",
+										"text": "String"
+									},
+									{
+										"id": "hsimjqvz",
+										"text": "Assignment Variabel Data Tunggal"
+									},
+									{
+										"id": "auotlhmi",
+										"text": "Assignment dan Pemanggilan Array"
+									},
+									{
+										"id": "iwmqgayf",
+										"text": "Function"
+									},
+									{
+										"id": "oaeciijz",
+										"text": "Class"
+									}
+								]
+							},
+							{
+								"id": "pxhwcded",
+								"text": "Statement",
+								"children": [
+									{
+										"id": "ibcmcpzf",
+										"text": "Kumpulan Ekspresi"
+									},
+									{
+										"id": "kxhbcvii",
+										"text": "Echo"
+									},
+									{
+										"id": "njoyrkzx",
+										"text": "If-Elseif-Else"
+									},
+									{
+										"id": "uyngnguu",
+										"text": "Switch"
+									},
+									{
+										"id": "ptlppxdh",
+										"text": "While"
+									},
+									{
+										"id": "kmfyrvre",
+										"text": "For"
+									},
+									{
+										"id": "xgddfbao",
+										"text": "Foreach"
+									},
+									{
+										"id": "hnvidhkc",
+										"text": "Include, Require, Include_once, Require_once"
+									},
+									{
+										"id": "vkcychbj",
+										"text": "Komentar"
+									}
+								]
+							},
+							{
+								"id": "ocuhtlft",
+								"text": "Lebih detail mengenai HTTP"
+							},
+							{
+								"id": "ylhpwbuz",
+								"text": "Variabel Reserved"
+							},
+							{
+								"id": "btrpynff",
+								"text": "Function"
+							},
+							{
+								"id": "sipchdap",
+								"text": "Studi Kasus Code Reusability"
+							},
+							{
+								"id": "zmvcsokt",
+								"text": "Class &amp; Object",
+								"children": [
+									{
+										"id": "wtggtmpw",
+										"text": "Pengenalan"
+									},
+									{
+										"id": "jqguyorf",
+										"text": "Membuat sebuah class"
+									},
+									{
+										"id": "xhbesqry",
+										"text": "Akses Properti dan Method"
+									},
+									{
+										"id": "bmagevnz",
+										"text": "Akses Properti dan Method dari Luar beserta contohnya"
+									},
+									{
+										"id": "dzvvyfxv",
+										"text": "Akses Properti dan Method dari Dalam<br>"
+									},
+									{
+										"id": "ttnpwbxr",
+										"text": "Gambaran Besar dari Akses Properti dan Method lewat dalam maupun Luar"
+									}
+								]
+							},
+							{
+								"id": "uihisqfb",
+								"text": "PDO",
+								"children": [
+									{
+										"id": "gimdthaa",
+										"text": "Pengenalan"
+									},
+									{
+										"id": "gjwgxmdo",
+										"text": "New"
+									},
+									{
+										"id": "fhgysrsh",
+										"text": "Query"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "fxjewdcy",
+				"text": "Master Iteration #1",
+				"children": [
+					{
+						"id": "zvnczofh",
+						"text": "#1",
+						"collapsed": 1,
+						"children": [
+							{
+								"id": "ltexwroh",
+								"text": "\"Disini belajar ngapain sih?\"",
+								"children": [
+									{
+										"id": "cathpccs",
+										"text": "UNAS dan Jurusannya"
+									},
+									{
+										"id": "tlaxxlva",
+										"text": "Sistem &amp; Informasi"
+									},
+									{
+										"id": "hiodolee",
+										"text": "*gambaran Sistem &amp; Informasi*"
+									},
+									{
+										"id": "ovzhxnnw",
+										"text": "Jenis Lulusan SI",
+										"children": [
+											{
+												"id": "qwgvockd",
+												"text": "\"I can't even code XDDD\""
+											},
+											{
+												"id": "lleowvxp",
+												"text": "I can code web apps"
+											},
+											{
+												"id": "nrimucwl",
+												"text": "I can improve stuffs"
+											}
+										]
+									},
+									{
+										"id": "iamsrzyb",
+										"text": "Yang diajarkan disini",
+										"children": [
+											{
+												"id": "wrkynhwl",
+												"text": "Itu utamanya Pemrograman Web"
+											},
+											{
+												"id": "qlmodvpt",
+												"text": "Disasarkan untuk yang ingin lancar pemrograman DAN pemrograman Web"
+											},
+											{
+												"id": "ugktckiv",
+												"text": "Level Ilmu"
+											},
+											{
+												"id": "ydfknvfs",
+												"text": "Level Belajar"
+											},
+											{
+												"id": "tsdplkel",
+												"text": "\"If you need em, you're going to come for them!\"",
+												"children": [
+													{
+														"id": "lgfonimg",
+														"text": "Emang agak sucks sih kalo udah kuliah jurusan SI tapi gak sreg sama SI-nya"
+													},
+													{
+														"id": "fnqmrlxw",
+														"text": "Prinsip decoupling : \"If you need em, you're going to come for them!\"; jadi ya emang kalo lu interested, lu bakal belajar dengan sendirinya;"
+													},
+													{
+														"id": "jfpypaco",
+														"text": "If&nbsp; you're not interested, perhaps i can make you interested by showing the real thing from the very beginning till the very end"
+													},
+													{
+														"id": "zqzokhtz",
+														"text": "If you're interested then you've come to the right place!!!"
+													}
+												]
+											},
+											{
+												"id": "bwyabpyk",
+												"text": "Yang dicoba disini adalah different approach untuk \"tutup lobang\""
+											},
+											{
+												"id": "zdqitfbd",
+												"text": "Manfaat yang dicoba untuk sebarkan disini",
+												"children": [
+													{
+														"id": "ktzryvsq",
+														"text": "1.&nbsp; Hands-on experience MEMBANGUN SEBUAH WEB"
+													},
+													{
+														"id": "whoinfob",
+														"text": "2. I'LL SHOW YOU THE REAL THING"
+													},
+													{
+														"id": "vkwqukpu",
+														"text": "2. \"Give it a shot!\" dan jadi bahan pertimbangan"
+													},
+													{
+														"id": "kbcwicso",
+														"text": "2. Lancar buat web"
+													},
+													{
+														"id": "ipdyvegn",
+														"text": "3. Di kelas lancar"
+													},
+													{
+														"id": "fjazjtfo",
+														"text": "4. Selangkah di depan saat di kelas"
+													},
+													{
+														"id": "rflcaijl",
+														"text": "5. Bikin siap kerja"
+													},
+													{
+														"id": "ydqknsba",
+														"text": "6. Melancarkan programming secara keseluruhan"
+													},
+													{
+														"id": "gjcprfuo",
+														"text": "7. Jadi belajar keterkaitan dengan materi SI lain"
+													},
+													{
+														"id": "aeawlpzj",
+														"text": "8. Turut menggugah penasaran ilmu selain SI"
+													}
+												]
+											},
+											{
+												"id": "ukflncdm",
+												"text": "\"People dont pay you to be a coward\""
+											},
+											{
+												"id": "xelatfkq",
+												"text": "\"People dont pay you to be a sneaky guy\""
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "yadbofxu",
+								"text": "Arsitektur Komputer",
+								"children": [
+									{
+										"id": "gdbowkym",
+										"text": "Sejarah Singkat",
+										"children": [
+											{
+												"id": "ttjnchwd",
+												"text": "\"Bawah ke atas\""
+											},
+											{
+												"id": "tdblhuln",
+												"text": "Alat Bantu"
+											},
+											{
+												"id": "ifucyylt",
+												"text": "Kalkulator"
+											},
+											{
+												"id": "oigwmhpg",
+												"text": "Komputer dan keperluannya saat itu untuk membantu perang (in which hey, why dont we make an AIO tool?)"
+											},
+											{
+												"id": "eehclpcq",
+												"text": "Arsitektur Stored-Program"
+											}
+										]
+									},
+									{
+										"id": "oeuenuif",
+										"text": "Arsitektur Stored-Program",
+										"children": [
+											{
+												"id": "ejgsmneo",
+												"text": "Pengenalan",
+												"children": [
+													{
+														"id": "rrrqjfom",
+														"text": "Pembagian Komputer Stored-Program Arch.",
+														"children": [
+															{
+																"id": "ggupbset",
+																"text": "Berdasarkan ISA",
+																"children": [
+																	{
+																		"id": "hwesuhzi",
+																		"text": "CISC",
+																		"children": [
+																			{
+																				"id": "cubbekeu",
+																				"text": "x86"
+																			}
+																		]
+																	},
+																	{
+																		"id": "yxqjosnv",
+																		"text": "RISC<br>",
+																		"children": [
+																			{
+																				"id": "ekahklmq",
+																				"text": "ARM"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"id": "xmbmrksq",
+														"text": "Bagan utama : CPU, RAM, Harddisk"
+													}
+												]
+											},
+											{
+												"id": "cfccdegc",
+												"text": "Cara kerja x86 PC",
+												"children": [
+													{
+														"id": "xauiidgp",
+														"text": "1. BIOS POST"
+													},
+													{
+														"id": "pdnviujb",
+														"text": "2. CPU dan Chipset bekerjasama load program awal dari Boot Dev. Prio. 1"
+													},
+													{
+														"id": "crgicwuy",
+														"text": "3.&nbsp; Eksekusi program dengan bahasa Assembler"
+													}
+												]
+											},
+											{
+												"id": "exizlnhk",
+												"text": "Software vs. Program"
+											},
+											{
+												"id": "ygkotxgg",
+												"text": "Pengenalan Assembler",
+												"children": [
+													{
+														"id": "utnpzxhe",
+														"text": "\"Dari atas ke bawah saling bekerjasama\""
+													}
+												]
+											},
+											{
+												"id": "qzuqqhtc",
+												"text": "Contoh OS Assembler (sebagai perbandingan bahwasannya Windows/Linux/Mac itu jauh lebih ribet lagi)"
+											},
+											{
+												"id": "audisaxs",
+												"text": "Contoh OS Assembler 2 (Grafik)"
+											},
+											{
+												"id": "ihkqxwch",
+												"text": "Assembler dan hubungannya dengan device penyimpanan"
+											},
+											{
+												"id": "lomsxhup",
+												"text": "Assembler Native dan Assembler di bawah OS"
+											},
+											{
+												"id": "ecpnguvt",
+												"text": "Filesystem Windows dan Linux"
+											},
+											{
+												"id": "ngjnzelj",
+												"text": "Partition Table beserta Partitionnya"
+											},
+											{
+												"id": "memyvuyi",
+												"text": "Filesystem NTFS<br>",
+												"children": [
+													{
+														"id": "vfnwfwdc",
+														"text": "\"People says computer is just ones and zeros\""
+													}
+												]
+											},
+											{
+												"id": "qcigrntd",
+												"text": "Contoh format PE<br>"
+											},
+											{
+												"id": "dzqbbvtn",
+												"text": "Contoh format BMP"
+											},
+											{
+												"id": "raombcrr",
+												"text": "Cabang Ilmu Windows"
+											},
+											{
+												"id": "aufwsjua",
+												"text": "Proses di Windows"
+											},
+											{
+												"id": "kghiiwnd",
+												"text": "Jadi...semua yang kita lakukan dengan&nbsp; komputer semua berkat andil Program"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "qprexush",
+								"text": "Pemrograman Web dengan HTTP, HTML, CSS, MySQL dan PHP",
+								"children": [
+									{
+										"id": "ccxyyema",
+										"text": "Kenapa?",
+										"children": [
+											{
+												"id": "jexgfuzn",
+												"text": "Dari sekian banyak, banyak manfaatnya, antara lain"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "mwrjthzk",
+						"text": "#2",
+						"children": [
+							{
+								"id": "zicbwjpt",
+								"text": "*Persiapan*",
+								"children": [
+									{
+										"id": "glikrqga",
+										"text": "Total",
+										"children": [
+											{
+												"id": "jtbeezge",
+												"text": "Diagram",
+												"children": [
+													{
+														"id": "lapytegy",
+														"text": "*elements*"
+													},
+													{
+														"id": "xowrjjhc",
+														"text": "*texts*"
+													},
+													{
+														"id": "owouppbh",
+														"text": "*images*"
+													},
+													{
+														"id": "hvqbmiav",
+														"text": "*shapes*"
+													},
+													{
+														"id": "cjvcdkzi",
+														"text": "*fromIds*"
+													}
+												]
+											},
+											{
+												"id": "ikruqnaw",
+												"text": "Slide"
+											},
+											{
+												"id": "fybvoojt",
+												"text": "\"Sekilas, apa saja yang akan dipelajari\""
+											},
+											{
+												"id": "pccuians",
+												"text": "WiFi",
+												"children": [
+													{
+														"id": "mqsrswzz",
+														"text": "Akses Dashboard + DNS-nya"
+													},
+													{
+														"id": "dydzeebx",
+														"text": "Docker, dkk."
+													}
+												]
+											},
+											{
+												"id": "nabjtiau",
+												"text": "*Meja*"
+											},
+											{
+												"id": "ipxqcrug",
+												"text": "KuisSingkat"
+											},
+											{
+												"id": "lhnfisjp",
+												"text": "TestSingkat"
+											},
+											{
+												"id": "gplchlop",
+												"text": "*HeyHowLongItIs*"
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "dzpleoyx",
+								"text": "\"Disini belajar ngapain sih?\"",
+								"children": [
+									{
+										"id": "qpxhzzoo",
+										"text": "UNAS dan Jurusannya",
+										"children": [
+											{
+												"id": "gewtqtbr",
+												"text": "*gambar jurusan-jurusan UNAS dan \"You are here\"*"
+											}
+										]
+									},
+									{
+										"id": "kbieznxl",
+										"text": "Sistem &amp; Informasi",
+										"children": [
+											{
+												"id": "izxpvrah",
+												"text": "Pengertian",
+												"children": [
+													{
+														"id": "fykqqfvt",
+														"text": "Sistem:&nbsp;kumpulan data dalam 1 aturan tertentu<br>"
+													},
+													{
+														"id": "stmywhhq",
+														"text": "Informasi:&nbsp;&nbsp;sesuatu yang memberitahu"
+													}
+												]
+											},
+											{
+												"id": "ldwolbgf",
+												"text": "Gambaran",
+												"children": [
+													{
+														"id": "jhckxlwb",
+														"text": "*gambar Input-Proses-Output dengan contoh data nilai-presensi dan statistik (terendah, terbaik, tersering masuk)*"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "oexaroyh",
+										"text": "Its actually doesnt have to be software!"
+									},
+									{
+										"id": "iazllsfc",
+										"text": "Yang diajarkan disini",
+										"children": [
+											{
+												"id": "phjnbqun",
+												"text": "Utamanya Pemrograman Web",
+												"children": [
+													{
+														"id": "srvynucu",
+														"text": "(Jadi ya, dari segala sesuatu yang bisa dijadikan SI dan dari segala matkul displin ilmu yang diajarkan, gw pilih P. Web)"
+													}
+												]
+											},
+											{
+												"id": "ehsivgyw",
+												"text": "Manfaat yang dicoba untuk sebarkan disini",
+												"children": [
+													{
+														"id": "bfjpkxli",
+														"text": "1.&nbsp; Hands-on experience MEMBANGUN SEBUAH WEB",
+														"children": [
+															{
+																"id": "taqltsjf",
+																"text": "(ketimbang \"liatLayar-ketik\")"
+															}
+														]
+													},
+													{
+														"id": "bcxwwjkj",
+														"text": "2. I'LL SHOW YOU THE REAL THING",
+														"children": [
+															{
+																"id": "bxkninnt",
+																"text": "*DESI*"
+															},
+															{
+																"id": "zsozniuz",
+																"text": "*PU*"
+															},
+															{
+																"id": "qbpspyrn",
+																"text": "*AHM*"
+															},
+															{
+																"id": "fwxxxuxm",
+																"text": "(agak bikin frustasi memang kalau...)",
+																"children": [
+																	{
+																		"id": "lwzonxst",
+																		"text": "Gak tau mana yang bener dipake pas kerja"
+																	},
+																	{
+																		"id": "qazinljh",
+																		"text": "Pas kerja seperti apa butuhnya"
+																	},
+																	{
+																		"id": "yvgbbkuh",
+																		"text": "Matkul dan pas IRL kerja hubungannya apa"
+																	}
+																]
+															}
+														]
+													},
+													{
+														"id": "tgltatlz",
+														"text": "3. \"Give it a shot!\" dan jadi bahan pertimbangan",
+														"children": [
+															{
+																"id": "glknmxfj",
+																"text": "*prinsip \"Isi saja yang diperlukan dunia ini; tahu tempat\"*"
+															},
+															{
+																"id": "bkdkxopz",
+																"text": "\"Kalau memang tergugah, bakal dateng sendiri\""
+															},
+															{
+																"id": "bkdgkxml",
+																"text": "3 jenis lulusan SI"
+															}
+														]
+													},
+													{
+														"id": "whnbcbtf",
+														"text": "4. Lancar buat web"
+													},
+													{
+														"id": "gjewqpqh",
+														"text": "5. Di kelas lancar"
+													},
+													{
+														"id": "sfafmvju",
+														"text": "6. Selangkah di depan saat di kelas"
+													},
+													{
+														"id": "vegjsomu",
+														"text": "7. Bikin siap kerja"
+													},
+													{
+														"id": "woyjsyuc",
+														"text": "8. Melancarkan programming secara keseluruhan"
+													},
+													{
+														"id": "izwtdoaa",
+														"text": "9. Jadi belajar keterkaitan dengan materi SI lain"
+													},
+													{
+														"id": "aqpsuhra",
+														"text": "10. Turut menggugah penasaran ilmu selain SI"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "yzcqocdm",
+										"text": "Level Keahlian",
+										"children": [
+											{
+												"id": "ryqwdyku",
+												"text": "*gambar level*",
+												"children": [
+													{
+														"id": "ciwwisfl",
+														"text": "Lv. -1 belum bisa operasikan komputer"
+													},
+													{
+														"id": "wwgagmjd",
+														"text": "Lv. 0 belum bisa programming"
+													},
+													{
+														"id": "qwvguwma",
+														"text": "Lv. 0.5 sudah cukup bisa"
+													},
+													{
+														"id": "cgwwqbju",
+														"text": "Lv. 1 Bisa sekedar bisa"
+													},
+													{
+														"id": "pceztgrd",
+														"text": "Lv. 2 Menguasai full suatu platform pemrograman / Cakupan luas beraneka ragam platform pemrograman"
+													},
+													{
+														"id": "taraqsdz",
+														"text": "Lv. 3 Paham betul pengembangan perangkat lunak yang memang flexible dan scalable di dunia nyata"
+													},
+													{
+														"id": "klwyejju",
+														"text": "<span style=\"font-size: 12.8px;\">Lv. 4 Sudah bisa berkreasi dengan ide baru yang mengubah cara pemrograman itu sendiri</span>"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "alzkmaao",
+										"text": "Persiapan setelah hari ini kelar",
+										"children": [
+											{
+												"id": "vmqnsbqy",
+												"text": "*gambar*",
+												"children": [
+													{
+														"id": "ixglbvyz",
+														"text": "\"Setelah anda pulang...\""
+													},
+													{
+														"id": "anbitvpj",
+														"text": "Pet Project"
+													},
+													{
+														"id": "jkgvpydc",
+														"text": "Mindmap"
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "uiezophg",
+								"text": "Arsitektur Komputer",
+								"children": [
+									{
+										"id": "tqbnugut",
+										"text": "Arsitektur Stored-Program",
+										"children": [
+											{
+												"id": "liudrvbd",
+												"text": "<span style=\"font-size: 9.6px;\">Pengenalan</span>",
+												"children": [
+													{
+														"id": "ovpfockp",
+														"text": "Komputer adalah perangkat yang terdiri atas hw&amp;sw, menerima input-proses-output, reprogrammable"
+													}
+												]
+											},
+											{
+												"id": "rqzhboez",
+												"text": "Perkembangan Alat Bantu",
+												"children": [
+													{
+														"id": "limdssnk",
+														"text": "Sempoa"
+													},
+													{
+														"id": "felfyypv",
+														"text": "Kalkulator Mekanik",
+														"children": [
+															{
+																"id": "xyhltwrz",
+																"text": "Pascaline"
+															},
+															{
+																"id": "bxstrgsk",
+																"text": "Curta"
+															}
+														]
+													},
+													{
+														"id": "xbhapwcx",
+														"text": "Komputer",
+														"children": [
+															{
+																"id": "cuubvrph",
+																"text": "ENIAC"
+															},
+															{
+																"id": "dddmcygv",
+																"text": "EDVAC"
+															},
+															{
+																"id": "mrcitksf",
+																"text": "Apple 1"
+															},
+															{
+																"id": "ffadjzmr",
+																"text": "*gambar Input-Output-Proses digambarkan dengan rumus balok&lt;-&gt;hitung diskon*"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "gptujhcg",
+												"text": "Sifat Reprogrammable dengan Arsitektur Stored-Program",
+												"children": [
+													{
+														"id": "ralqffws",
+														"text": "*Gambar Komputer Modern*",
+														"children": [
+															{
+																"id": "zvrsfbzt",
+																"text": "Motherboard"
+															},
+															{
+																"id": "kfpnguly",
+																"text": "CPU",
+																"children": [
+																	{
+																		"id": "xswfwown",
+																		"text": "Dibuat dari Wafer"
+																	},
+																	{
+																		"id": "dbxtgcul",
+																		"text": "Yang dibuat dari Transistor"
+																	},
+																	{
+																		"id": "yebwyrxc",
+																		"text": "Yang dibuat atas asas Boolean"
+																	}
+																]
+															},
+															{
+																"id": "zgezubma",
+																"text": "RAM"
+															},
+															{
+																"id": "gaxtuaky",
+																"text": "Chipset"
+															},
+															{
+																"id": "qvbzfpda",
+																"text": "Harddisk"
+															}
+														]
+													},
+													{
+														"id": "tcjngkvz",
+														"text": "Apa saja yang bisa dilakukan",
+														"children": [
+															{
+																"id": "efuujfbj",
+																"text": "*Hitung Luas Lingkaran*"
+															},
+															{
+																"id": "yphszrsf",
+																"text": "*Hitung Diskon*"
+															},
+															{
+																"id": "jnqzktck",
+																"text": "*Hitung Diskon Bersyarat*"
+															},
+															{
+																"id": "ntililns",
+																"text": "*Hitung Nilai*"
+															}
+														]
+													},
+													{
+														"id": "wodxbypu",
+														"text": "Kesamaan satu program dengan yang lain",
+														"children": [
+															{
+																"id": "numaeqfk",
+																"text": "<div>Proses dilakukan langkah demi langkah, satu per satu</div>"
+															},
+															{
+																"id": "qmsbkrcs",
+																"text": "Ada Perhitungan"
+															},
+															{
+																"id": "xzswwprw",
+																"text": "Butuh Sarana Penyimpanan"
+															},
+															{
+																"id": "sfkdyqmm",
+																"text": "Mengingat elektronik dan matematis, cocok dikerjakan dengan sistem biner"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "dlmjgiye",
+												"text": "Assembler",
+												"children": [
+													{
+														"id": "josfkulh",
+														"text": "Bahasa yang menjembatani CPU, RAM dan Hardware Lain"
+													},
+													{
+														"id": "wjbwaitp",
+														"text": "Justru karena hanya bisa hal-hal sederhana, jadi rumit",
+														"children": [
+															{
+																"id": "esaotuxs",
+																"text": "Hitung"
+															},
+															{
+																"id": "ilfqaqnf",
+																"text": "Perbandingan"
+															},
+															{
+																"id": "islliigg",
+																"text": "I/O",
+																"children": [
+																	{
+																		"id": "uulumobl",
+																		"text": "RAM"
+																	},
+																	{
+																		"id": "cpaencch",
+																		"text": "Hardware Lain"
+																	}
+																]
+															},
+															{
+																"id": "lwuvbwck",
+																"text": "Kontrol"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "atlkluya",
+												"text": "Contoh Gambaran Program Assembler",
+												"children": [
+													{
+														"id": "cteqwjdn",
+														"text": "*gambar bergerak 5+4 dengan opcode mov dan add*",
+														"children": [
+															{
+																"id": "hiruylow",
+																"text": "*gambar CPU*"
+															},
+															{
+																"id": "jdwbwusi",
+																"text": "*gambar info CPU*",
+																"children": [
+																	{
+																		"id": "jwfmsfpu",
+																		"text": "Program Counter"
+																	},
+																	{
+																		"id": "zteokpja",
+																		"text": "Instruksi saat ini"
+																	},
+																	{
+																		"id": "utvyzykx",
+																		"text": "Parameter 1"
+																	},
+																	{
+																		"id": "cakkbayb",
+																		"text": "Parameter 2"
+																	},
+																	{
+																		"id": "cndqojua",
+																		"text": "EAX"
+																	},
+																	{
+																		"id": "xutevmil",
+																		"text": "EBX"
+																	},
+																	{
+																		"id": "blbbtzix",
+																		"text": "ECX"
+																	},
+																	{
+																		"id": "ihvnxfel",
+																		"text": "EDX"
+																	}
+																]
+															},
+															{
+																"id": "xdcnswjq",
+																"text": "*gambar instruksi Assembler*"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "ykojnzoi",
+												"text": "Pembagian Komputer Stored-Program Arch.",
+												"children": [
+													{
+														"id": "ckepidxy",
+														"text": "Berdasarkan ISA",
+														"children": [
+															{
+																"id": "podfnlzh",
+																"text": "Jenis",
+																"children": [
+																	{
+																		"id": "mihezzzm",
+																		"text": "CISC",
+																		"children": [
+																			{
+																				"id": "rragkxpc",
+																				"text": "x86"
+																			}
+																		]
+																	},
+																	{
+																		"id": "jgbvbrga",
+																		"text": "RISC<br>",
+																		"children": [
+																			{
+																				"id": "aprlhtkh",
+																				"text": "PowerPC"
+																			},
+																			{
+																				"id": "ramzkrja",
+																				"text": "ARM"
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"id": "sbezxaxy",
+														"text": "Berdasarkan platform hardware",
+														"children": [
+															{
+																"id": "swezhwfp",
+																"text": "PC"
+															},
+															{
+																"id": "aqrwpiix",
+																"text": "Mac"
+															},
+															{
+																"id": "awsjxiek",
+																"text": "Berbagai macam platform ARM"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "ndnclguc",
+												"text": "ISA CISC vs RISC<br>",
+												"children": [
+													{
+														"id": "xkribdah",
+														"text": "CISC vs RISC",
+														"children": [
+															{
+																"id": "yadtxuru",
+																"text": "*gambar CISC*",
+																"children": [
+																	{
+																		"id": "teoltshm",
+																		"text": "*CPU*"
+																	},
+																	{
+																		"id": "fqneopxy",
+																		"text": "*RAM*"
+																	},
+																	{
+																		"id": "wtmddujd",
+																		"text": "*Instruksi CISC*"
+																	}
+																]
+															},
+															{
+																"id": "smtgcnjm",
+																"text": "*gambar RISC*",
+																"children": [
+																	{
+																		"id": "yxmwcfro",
+																		"text": "*CPU*"
+																	},
+																	{
+																		"id": "mfrfelew",
+																		"text": "*RAM*"
+																	},
+																	{
+																		"id": "iypreomd",
+																		"text": "*Instruksi RISC*"
+																	}
+																]
+															}
+														]
+													},
+													{
+														"id": "qhhdmvzw",
+														"text": "Inilah kenapa CPU x86 &gt; CPU ARM",
+														"children": [
+															{
+																"id": "pugdiusq",
+																"text": "*Gambar Android dan Windows 95 di Laptop*"
+															},
+															{
+																"id": "tugzvzss",
+																"text": "*Gambar Windows 95 di Android*"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "zuzmhxic",
+												"text": "Cara kerja PC x86",
+												"children": [
+													{
+														"id": "lwsgrmzs",
+														"text": "Langkah-langkah",
+														"children": [
+															{
+																"id": "ozpiwity",
+																"text": "1. Simpan setting di dalam Memori BIOS",
+																"children": [
+																	{
+																		"id": "fmkvgwdb",
+																		"text": "Waktu Tanggal"
+																	},
+																	{
+																		"id": "dftoscth",
+																		"text": "Boot Device Priority"
+																	}
+																]
+															},
+															{
+																"id": "ficxlpya",
+																"text": "2. Tekan tombol Power"
+															},
+															{
+																"id": "zyxbqygv",
+																"text": "3. POST dan logo motherboard"
+															},
+															{
+																"id": "dmghsdnd",
+																"text": "4. Load Program (berbahasa Assembler) dari mana asalnya itu sesuai Boot Device Priority)"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "wabdsood",
+												"text": "Filesystem, Harddisk, Partition Table dan Partition",
+												"children": [
+													{
+														"id": "lqrwqwpc",
+														"text": "*gambar*",
+														"children": [
+															{
+																"id": "iamfannl",
+																"text": "Harddisk/SSD/Flashdisk",
+																"children": [
+																	{
+																		"id": "ubijeeyx",
+																		"text": "Bisa 0101 cakram berlapis-lapis"
+																	},
+																	{
+																		"id": "rltazhqq",
+																		"text": "Bisa 0101 teknologi NAND"
+																	},
+																	{
+																		"id": "unncryks",
+																		"text": "Bisa 0101 teknologi flashdisk"
+																	}
+																]
+															},
+															{
+																"id": "wqrihxkv",
+																"text": "Controller Chipset",
+																"children": [
+																	{
+																		"id": "sxasesmk",
+																		"text": "*Kumpulan 0101 terjajar rapih*"
+																	},
+																	{
+																		"id": "myonvhyc",
+																		"text": "Ada Partition Table-nya",
+																		"children": [
+																			{
+																				"id": "rlokosrn",
+																				"text": "*Kode Bootstrap OS (maks 218byte)*"
+																			},
+																			{
+																				"id": "txofmdqb",
+																				"text": "*Durasi harddisk*"
+																			}
+																		]
+																	},
+																	{
+																		"id": "obgwqtxs",
+																		"text": "Ada Partition (NTFS)",
+																		"children": [
+																			{
+																				"id": "lzjzylwo",
+																				"text": "*Kode Bootstrap OS lanjutan*"
+																			},
+																			{
+																				"id": "tsiilxvn",
+																				"text": "*MFT*"
+																			},
+																			{
+																				"id": "uhbvgyhv",
+																				"text": "*File*",
+																				"children": [
+																					{
+																						"id": "zzwlcxjw",
+																						"text": "Signature (must be \"FILE\")"
+																					},
+																					{
+																						"id": "pdgelxbl",
+																						"text": "Flag (On/Off) sedang dipakai atau tidak"
+																					},
+																					{
+																						"id": "qrbsnrra",
+																						"text": "Flag (On/Off) sebuah folder atau file"
+																					},
+																					{
+																						"id": "efudjaru",
+																						"text": "Atribut",
+																						"children": [
+																							{
+																								"id": "hkcwhpqy",
+																								"text": "Read Only? Archive? Hidden? System?"
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"id": "rmhguodo",
+																"text": "Ada Filesystem"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "rkbsezsr",
+												"text": "Contoh OS Assembler (sebagai perbandingan bahwasannya Windows/Linux/Mac itu jauh lebih ribet lagi)"
+											},
+											{
+												"id": "ziezgtuq",
+												"text": "Contoh OS Assembler 2 (Grafik)"
+											},
+											{
+												"id": "mohtezxe",
+												"text": "Filesystem Windows dan Linux",
+												"children": [
+													{
+														"id": "oryzrxvr",
+														"text": "Di Windows,",
+														"children": [
+															{
+																"id": "onftxatt",
+																"text": "*gambar C:, D:, E:*"
+															},
+															{
+																"id": "ldajswys",
+																"text": "Ikut \"Hirarki Windows\"",
+																"children": [
+																	{
+																		"id": "kpxhvaes",
+																		"text": "Tiap harddisk diassign dengan format huruf-titikdua"
+																	}
+																]
+															}
+														]
+													},
+													{
+														"id": "psusizbv",
+														"text": "Di Linux,",
+														"children": [
+															{
+																"id": "wnftalcb",
+																"text": "*gambar hirarki Linux*"
+															},
+															{
+																"id": "bqbtqrzo",
+																"text": "Ikut \"Hirarki Linux; everything is a file\"",
+																"children": [
+																	{
+																		"id": "zzimclcg",
+																		"text": "Hanya ada root, yaitu partisi utama tempat sang OS nge-boot"
+																	},
+																	{
+																		"id": "ottrjsno",
+																		"text": "Root punya folder-folder dimana apa saja folder-foldernya itu sudah diatur sedemikian rupa"
+																	},
+																	{
+																		"id": "kjonkmbi",
+																		"text": "Salah satu aturan yang diatur sedemikian rupa itu adalah kalau mau akses&nbsp; partisi/disk lain harus lewat folder /mount/"
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "afyfivbr",
+												"text": "Contoh format BMP",
+												"children": [
+													{
+														"id": "jpdxzfbi",
+														"text": "*gambar*",
+														"children": [
+															{
+																"id": "flpclmcf",
+																"text": "2x2, biru merah ijo putih"
+															},
+															{
+																"id": "sjvidzcw",
+																"text": "Hexa",
+																"children": [
+																	{
+																		"id": "zjonwfkj",
+																		"text": "Header"
+																	},
+																	{
+																		"id": "ahsglndz",
+																		"text": "Warna 1"
+																	},
+																	{
+																		"id": "ahhiamvu",
+																		"text": "Warna 2"
+																	},
+																	{
+																		"id": "tmaltaub",
+																		"text": "Warna 3"
+																	},
+																	{
+																		"id": "fmkzskvl",
+																		"text": "Warna 4"
+																	}
+																]
+															},
+															{
+																"id": "cojzusoe",
+																"text": "Penjelasan R-G-B"
+															}
+														]
+													},
+													{
+														"id": "wxpcgaqm",
+														"text": "*demo ubah jadi ijo-ijo-ijo*"
+													},
+													{
+														"id": "mrblwzmy",
+														"text": "*demo ubah jadi merah-merah-merah*"
+													},
+													{
+														"id": "inwhsysr",
+														"text": "*demo ubah jadi merah-ijo-merah*"
+													}
+												]
+											},
+											{
+												"id": "zqooenma",
+												"text": "Contoh format PE<br>",
+												"children": [
+													{
+														"id": "oswxyung",
+														"text": "*PE101 Github*"
+													},
+													{
+														"id": "djfbmwxs",
+														"text": "*PE101 Helloworld*",
+														"children": [
+															{
+																"id": "hvdqylhr",
+																"text": "*Jalanin*"
+															},
+															{
+																"id": "gcmzbcpj",
+																"text": "*Hex*",
+																"children": [
+																	{
+																		"id": "xmqpkgaz",
+																		"text": "*Side-by-side ada hex dan artinya*"
+																	},
+																	{
+																		"id": "chiepeii",
+																		"text": "*Di hex dan di artinya, highlight barisnya tapi juga opcodenya, selebihnya enggak*"
+																	}
+																]
+															},
+															{
+																"id": "wridzqmi",
+																"text": "*Ollydbg*"
+															},
+															{
+																"id": "gaioxfew",
+																"text": "*Tabel Opcode*"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "xeadsekl",
+												"text": "Cabang Ilmu Windows",
+												"children": [
+													{
+														"id": "ungcgkin",
+														"text": "Contoh perjalanan Windows di x86",
+														"children": [
+															{
+																"id": "xbbbnjbc",
+																"text": "<div>*gambar alur atas-bawah Windows*</div>"
+															},
+															{
+																"id": "hneeibce",
+																"text": "*pembagian antara Assembly native dan dalam-OS*"
+															}
+														]
+													},
+													{
+														"id": "ksgaqjiv",
+														"text": "Pembagian",
+														"collapsed": 1,
+														"children": [
+															{
+																"id": "gbyxzgyg",
+																"text": "Proses",
+																"children": [
+																	{
+																		"id": "dqzmnedv",
+																		"text": "Struktur PE"
+																	},
+																	{
+																		"id": "iopwgxfk",
+																		"text": "Native, Kernel Mode dan User Mode",
+																		"children": [
+																			{
+																				"id": "ldtivrvr",
+																				"text": "Native: Program yang dijalankan langsung oleh CPU"
+																			},
+																			{
+																				"id": "loqnnvez",
+																				"text": "Kernel Mode: Program internal OS yang dijalankan melalui aplikasi Native"
+																			},
+																			{
+																				"id": "lgbripww",
+																				"text": "User Mode: Program-program yang tidak mendapat akses langsung ke CPU-RAM yang dijalankan User (seperti Photoshop, dlsb)"
+																			}
+																		]
+																	},
+																	{
+																		"id": "ywcepqih",
+																		"text": "Proses Internal Windows",
+																		"children": [
+																			{
+																				"id": "grdscgrp",
+																				"text": "hal.dll",
+																				"children": [
+																					{
+																						"id": "wvznzdrk",
+																						"text": "Lapisan untuk mendukung portabilitas Kernel"
+																					}
+																				]
+																			},
+																			{
+																				"id": "ybkfyyyf",
+																				"text": "ntoskrnl.exe",
+																				"children": [
+																					{
+																						"id": "rqryiflv",
+																						"text": "Menangani",
+																						"children": [
+																							{
+																								"id": "iwyreche",
+																								"text": "Driver",
+																								"children": [
+																									{
+																										"id": "plhzwmpd",
+																										"text": "System Driver (yang asalnya dari NTLDR)"
+																									},
+																									{
+																										"id": "gjblwlze",
+																										"text": "Driver Biasa"
+																									}
+																								]
+																							},
+																							{
+																								"id": "kaofbegr",
+																								"text": "Caching"
+																							},
+																							{
+																								"id": "vqtfclio",
+																								"text": "Configuration Manager (Registry)"
+																							},
+																							{
+																								"id": "gwklbteb",
+																								"text": "Memory Manager"
+																							},
+																							{
+																								"id": "mibjajya",
+																								"text": "I/O Manager"
+																							},
+																							{
+																								"id": "snmtybuf",
+																								"text": "PnP Manager"
+																							},
+																							{
+																								"id": "jayjbbqs",
+																								"text": "Power Manager"
+																							}
+																						]
+																					},
+																					{
+																						"id": "fchopknf",
+																						"text": "*Load System Driver; Load Registry; dari sana, cari Driver Biasa apa saja yang harus diload;*"
+																					}
+																				]
+																			},
+																			{
+																				"id": "tzfgrzmf",
+																				"text": "smss.exe",
+																				"children": [
+																					{
+																						"id": "dbuygulv",
+																						"text": "Menangani",
+																						"children": [
+																							{
+																								"id": "dtpgwhfl",
+																								"text": "Pembuatan Environment Variable"
+																							},
+																							{
+																								"id": "qcsifcvi",
+																								"text": "Start Win32 Kernel Mode",
+																								"children": [
+																									{
+																										"id": "irwoipbb",
+																										"text": "Oleh ntdll.dll dan win32k.sys"
+																									},
+																									{
+																										"id": "wjfnxwah",
+																										"text": "Kegunaan",
+																										"children": [
+																											{
+																												"id": "mbrghigo",
+																												"text": "Memungkinkan akses fitur dasar seperti olah Atom, Semapur, Muteks, Mutant, dlsb"
+																											}
+																										]
+																									}
+																								]
+																							},
+																							{
+																								"id": "ixwspmgn",
+																								"text": "Start Win32 User Mode",
+																								"children": [
+																									{
+																										"id": "ckelmdgu",
+																										"text": "Oleh",
+																										"children": [
+																											{
+																												"id": "yazuttgf",
+																												"text": "csrss.exe"
+																											},
+																											{
+																												"id": "nsrqrgvz",
+																												"text": "dwm.exe",
+																												"children": [
+																													{
+																														"id": "panlmlrw",
+																														"text": "Rendering antarmuka dengan akselerasi grafik"
+																													}
+																												]
+																											},
+																											{
+																												"id": "yusksioy",
+																												"text": "Kumpulan API DLL lainnya",
+																												"children": [
+																													{
+																														"id": "iugykftr",
+																														"text": "advapi32.dll",
+																														"children": [
+																															{
+																																"id": "pjgplbww",
+																																"text": "Shutdown/Restart, Service, User Account"
+																															}
+																														]
+																													},
+																													{
+																														"id": "fsknpsra",
+																														"text": "gdi32.dll",
+																														"children": [
+																															{
+																																"id": "unjuioky",
+																																"text": "Output grafik"
+																															}
+																														]
+																													},
+																													{
+																														"id": "mmwecuhc",
+																														"text": "user32.dll",
+																														"children": [
+																															{
+																																"id": "ccvxsjvc",
+																																"text": "Sistem manajemen window dan segala controlnya"
+																															}
+																														]
+																													},
+																													{
+																														"id": "liadtosv",
+																														"text": "comdlg32.dll",
+																														"children": [
+																															{
+																																"id": "cmynrrvm",
+																																"text": "Common Dialog"
+																															}
+																														]
+																													},
+																													{
+																														"id": "lrdtiefu",
+																														"text": "shell32.dll",
+																														"children": [
+																															{
+																																"id": "aafvzcop",
+																																"text": "Common Dialog dan Icons"
+																															}
+																														]
+																													},
+																													{
+																														"id": "muiepyyb",
+																														"text": "netapi32.dll",
+																														"children": [
+																															{
+																																"id": "gbfahdeb",
+																																"text": "Networking"
+																															}
+																														]
+																													}
+																												]
+																											}
+																										]
+																									},
+																									{
+																										"id": "dzipnsop",
+																										"text": "Kegunaan",
+																										"children": [
+																											{
+																												"id": "kzhykvhh",
+																												"text": "Memungkinkan pembuatan proses-proses User Mode baru"
+																											}
+																										]
+																									}
+																								]
+																							},
+																							{
+																								"id": "ntljhtip",
+																								"text": "BootExecute",
+																								"children": [
+																									{
+																										"id": "enyebvix",
+																										"text": "Program yang dijalankan sebelum OS memberi akses login"
+																									},
+																									{
+																										"id": "cisvvjam",
+																										"text": "Seperti: chkdsk"
+																									}
+																								]
+																							},
+																							{
+																								"id": "ttwsfigi",
+																								"text": "winlogon.exe"
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"id": "lcbzzyis",
+																				"text": "winlogon.exe",
+																				"children": [
+																					{
+																						"id": "izkchcuq",
+																						"text": "Menangani",
+																						"children": [
+																							{
+																								"id": "dkftulet",
+																								"text": "Interface untuk logon"
+																							},
+																							{
+																								"id": "lucogoum",
+																								"text": "Start services (svchost)"
+																							},
+																							{
+																								"id": "ymrlxfmc",
+																								"text": "Start shell",
+																								"children": [
+																									{
+																										"id": "hneujyfq",
+																										"text": "Cangkang untuk User melakukan segala aktivitas seperti yang pada umumnya lazim dilakukan"
+																									},
+																									{
+																										"id": "scjmmrpo",
+																										"text": "Juga jalankan Policy"
+																									},
+																									{
+																										"id": "jzwgnlhy",
+																										"text": "Explorer.exe"
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			},
+																			{
+																				"id": "vgxqtese",
+																				"text": "explorer.exe"
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"id": "nnkjenbg",
+																"text": "Object Management"
+															},
+															{
+																"id": "ziwdqxhp",
+																"text": "DLL Tambahan Lainnya"
+															},
+															{
+																"id": "nnkfpapl",
+																"text": "Service Tambahan Lainnya"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "kczqvhvj",
+												"text": "Proses di Windows"
+											},
+											{
+												"id": "opcteyim",
+												"text": "Jadi...semua yang kita lakukan dengan&nbsp; komputer semua berkat andil Program"
+											},
+											{
+												"id": "wbhawtdy",
+												"text": "Kompilasi di C++",
+												"children": [
+													{
+														"id": "nabajwey",
+														"text": "Langkah",
+														"children": [
+															{
+																"id": "xuvwpecz",
+																"text": "Preprocessor (cpp)"
+															},
+															{
+																"id": "hhrnanyz",
+																"text": "Compiler (g++)"
+															},
+															{
+																"id": "foifvjjt",
+																"text": "Assembler (as)"
+															},
+															{
+																"id": "iglpvsfg",
+																"text": "Linker (ld)"
+															}
+														]
+													},
+													{
+														"id": "kdfkbgjy",
+														"text": "Step-by-Step rinci",
+														"children": [
+															{
+																"id": "hyxncngx",
+																"text": "Ketik .cpp"
+															},
+															{
+																"id": "hrymuvkn",
+																"text": "Oper .cpp ke Preprocessor ya jadinya .cpp utuh"
+															},
+															{
+																"id": "emihanrw",
+																"text": "Compile .cpp jadi .s"
+															},
+															{
+																"id": "tihxuuxz",
+																"text": "Assembler"
+															},
+															{
+																"id": "ugvbjvwt",
+																"text": "Link dengan library lain"
+															},
+															{
+																"id": "jnrtgfox",
+																"text": "Jadilah .exe"
+															},
+															{
+																"id": "uhiruhyr",
+																"text": "Yang bila dibedah dengan OllyDbg"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "cztmiper",
+												"text": "Software yang dipakai untuk development",
+												"children": [
+													{
+														"id": "eqnuosrf",
+														"text": "*gambar kumpulan software*"
+													},
+													{
+														"id": "mmrsxbyd",
+														"text": "Compiled vs Intepreted",
+														"children": [
+															{
+																"id": "uribdxdl",
+																"text": "Compiled : Dicompile jadi PE, <span style=\"font-size: 9.6px;\">Intepreted : Diintepret dulu, Compiled-Intepreted: Dicompile jadi IR/bytecode lain, lalu diintepret</span>"
+															},
+															{
+																"id": "czjzfncp",
+																"text": "Compiled"
+															},
+															{
+																"id": "vnsrkjom",
+																"text": "Intepreted"
+															},
+															{
+																"id": "aqeibqax",
+																"text": "Compiled-Intepreted",
+																"children": [
+																	{
+																		"id": "jikdvvxz",
+																		"text": "*gambar source code*"
+																	},
+																	{
+																		"id": "ddgdihod",
+																		"text": "*gambar alur atas-&gt;bawah Windows*"
+																	},
+																	{
+																		"id": "lfmryzky",
+																		"text": "*gambar IR*"
+																	},
+																	{
+																		"id": "chbehees",
+																		"text": "*gambar dioper ke VM lalu jalankan di Console*"
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": "sfmlelpm",
+								"text": "<span style=\"font-size: 12.8px;\">Pemrograman Web dengan HTTP, HTML, CSS, MySQL dan PHP</span>",
+								"children": [
+									{
+										"id": "gtlxiwya",
+										"text": "Kenapa Web?",
+										"children": [
+											{
+												"id": "cuqlaywu",
+												"text": "Gambaran Besar"
+											},
+											{
+												"id": "rhkltzxy",
+												"text": "Truly anytime, anywhere",
+												"children": [
+													{
+														"id": "eigpozes",
+														"text": "*gambar komputer-laptop-hp ada web semua*"
+													}
+												]
+											},
+											{
+												"id": "wasmdkoj",
+												"text": "Hassle free, \"tanpa install\"",
+												"children": [
+													{
+														"id": "dqbeupoz",
+														"text": "*gambar komputer radial blur trus ada icon-icon browser*"
+													},
+													{
+														"id": "rgkrvfve",
+														"text": "*gambar dilarang dengan .NET, JRE, dlsb.*"
+													}
+												]
+											},
+											{
+												"id": "frvmlpgf",
+												"text": "Koding tampilan tidak dalam bentuk OOP yang rumit",
+												"children": [
+													{
+														"id": "nrxkhyhj",
+														"text": "*gambar source code GUI*"
+													},
+													{
+														"id": "hgcqmlgq",
+														"text": "*gambar source code HTML*"
+													}
+												]
+											},
+											{
+												"id": "tgibvysr",
+												"text": "Mulai dan iterate terhitung cepat",
+												"children": [
+													{
+														"id": "wnyirvoe",
+														"text": "Mulai pengembangan perangkat lunakmu mulai dari tampilan (menggunakan kode HTML yang cukup mudah dicerna) dan sistem logika backend atau mulai keduanya secara bersamaan dan iterate dengan cepat dengan workflow koding-refresh-koding-refresh"
+													}
+												]
+											},
+											{
+												"id": "seaooxjz",
+												"text": "Mengajari anda teknik komunikasi Request-Response Protokol HTTP",
+												"children": [
+													{
+														"id": "wpygqcsj",
+														"text": "Ketimbang buat aplikasi Desktop yang hanya sekedar akses file, anda bisa sekalian buat aplikasi yang bisa akses jaringan dari satu tempat ke yang lain"
+													},
+													{
+														"id": "bvjervqo",
+														"text": "(Cocok untuk belajar kenapa sistem yang scalable itu penting)"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "pxawqezq",
+										"text": "Garis Besar Kesinambungan satu sama lain",
+										"children": [
+											{
+												"id": "utqmwiev",
+												"text": "*gambar HTTP*"
+											},
+											{
+												"id": "btobjaol",
+												"text": "*gambar &lt;HTML3*",
+												"children": [
+													{
+														"id": "gzqktlwf",
+														"text": "*gambar source code dengan tag &lt;HTML3 beserta render browsernya*"
+													}
+												]
+											},
+											{
+												"id": "bdijmzaa",
+												"text": "*gambar &gt;HTML3+CSS*",
+												"children": [
+													{
+														"id": "esphvkfb",
+														"text": "*gambar source code CSS yang ternyata kalau diubah-ubah bisa mengubah penampilan HTMLnya secara langsung tanpa mengusik tataletaknya*"
+													}
+												]
+											},
+											{
+												"id": "vheahvgm",
+												"text": "*gambar MySQL*",
+												"children": [
+													{
+														"id": "swgizskh",
+														"text": "*gambar tempat simpan data, di balik backend*"
+													}
+												]
+											},
+											{
+												"id": "ggufkfee",
+												"text": "*gambar PHP sebagai backend*",
+												"children": [
+													{
+														"id": "yihpnwul",
+														"text": "*gambar banyaknya file pemroses data yang bolakbalik database*"
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "utsbqieo",
+										"text": "HTTP",
+										"children": [
+											{
+												"id": "bsduhlut",
+												"text": "Protokol",
+												"children": [
+													{
+														"id": "xnypmqwi",
+														"text": "*satu set sistem aturan yang diterapkan oleh 2 pihak atau lebih dalam suatu komunikasi*"
+													},
+													{
+														"id": "zmbrodux",
+														"text": "*gambar upacara*"
+													},
+													{
+														"id": "cohycjsd",
+														"text": "*gambar protokol upacara*"
+													},
+													{
+														"id": "sgukdbwy",
+														"text": "*gambar secret agent*",
+														"children": [
+															{
+																"id": "gmqivmzm",
+																"text": "*2 agent*"
+															},
+															{
+																"id": "jrphthpt",
+																"text": "*handshake relay*"
+															}
+														]
+													},
+													{
+														"id": "hckysuqq",
+														"text": "Mirip dengan Protokol Upacara, protokol mengatur dua pihak atau lebih dalam suatu komunikasi (harus bagaimana, urutannya bagaimana)"
+													}
+												]
+											},
+											{
+												"id": "judtsvvd",
+												"text": "HTTP",
+												"children": [
+													{
+														"id": "waqwgejn",
+														"text": "HyperText Transfer Protocol"
+													},
+													{
+														"id": "rsdtrhpy",
+														"text": "Protokol yang mengatur transfer Hypertext"
+													},
+													{
+														"id": "jwqusdbd",
+														"text": "*Client-Request-Response-Web Browser*, lengkap dengan header-content yang dikirim"
+													},
+													{
+														"id": "jjdimxvp",
+														"text": "*DemoSingkat: Request-Response*"
+													}
+												]
+											},
+											{
+												"id": "pipkeonf",
+												"text": "Hypertext",
+												"children": [
+													{
+														"id": "vnvxgkar",
+														"text": "*gambar Tim-Berners-Lee*"
+													},
+													{
+														"id": "tgxlsesc",
+														"text": "*gambar Information Fingertips*"
+													},
+													{
+														"id": "jagtwtho",
+														"text": "Halaman yang berisi informasi lalu bisa pindah ke informasi berikutnya dengan mengklik hyperlink"
+													},
+													{
+														"id": "wifyitvy",
+														"text": "\"HyperText is a way to link and access information of various kinds as a web of nodes in which the user can browse at will.\", TBL November 1990"
+													},
+													{
+														"id": "huqadjew",
+														"text": "*gambar \"In the late 1980s, Berners-Lee, then a scientist at CERN, invented the World Wide Web to meet the demand for simple and immediate information-sharing among physicists working at CERN and different universities or institutes all over the world.\"*"
+													}
+												]
+											},
+											{
+												"id": "zamdmzvd",
+												"text": "Protokol File:///"
+											},
+											{
+												"id": "gtinunte",
+												"text": "Perbedaan HTTP dan File:/// inilah yang menyebabkan file PHP gak bisa dibuka kalau tidak localhost"
+											},
+											{
+												"id": "zdnnjivu",
+												"text": "Konfigurasi Web Server"
+											}
+										]
+									},
+									{
+										"id": "htgibwfg",
+										"text": "Bahasa Markah",
+										"children": [
+											{
+												"id": "vdyufzay",
+												"text": "Menandai struktur data"
+											}
+										]
+									},
+									{
+										"id": "cesquzte",
+										"text": "XML",
+										"children": [
+											{
+												"id": "ltnlltio",
+												"text": "eXtensible Markup Language"
+											},
+											{
+												"id": "aakozhxk",
+												"text": "Elemen dan sistem tag buka-tutup XML"
+											},
+											{
+												"id": "gsuvgbvd",
+												"text": "Elemen dengan Tag langsung tutup"
+											},
+											{
+												"id": "afqrxmmv",
+												"text": "*Test: Buat XML masing-masing*"
+											},
+											{
+												"id": "mafxxslb",
+												"text": "Attribut"
+											}
+										]
+									},
+									{
+										"id": "cfluwfwk",
+										"text": "&lt;HTML3",
+										"children": [
+											{
+												"id": "devzvzfg",
+												"text": "Apa itu",
+												"children": [
+													{
+														"id": "tijjnruj",
+														"text": "Penstrukturan untuk Hypertext"
+													},
+													{
+														"id": "zikenxum",
+														"text": "Mau buat...",
+														"children": [
+															{
+																"id": "jacathfl",
+																"text": "Tulisan tebal? Ya pakai tag &lt;b&gt;"
+															},
+															{
+																"id": "xsuxtlov",
+																"text": "Tulisan miring? Ya pakai tag &lt;i&gt;"
+															},
+															{
+																"id": "iivkbmeg",
+																"text": "Tabel? Ya pakai tag &lt;table&gt;"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "qniovdhd",
+												"text": "Contoh web HTML pada awal mulanya",
+												"children": [
+													{
+														"id": "wzjxbeui",
+														"text": "*web pertama di dunia TBL*"
+													},
+													{
+														"id": "fvyimrmy",
+														"text": "*Yahoo*"
+													},
+													{
+														"id": "hynwjepr",
+														"text": "*MSN*"
+													}
+												]
+											},
+											{
+												"id": "silhjoho",
+												"text": "Bentuk baku",
+												"children": [
+													{
+														"id": "kszokyod",
+														"text": "Head dan Body"
+													}
+												]
+											},
+											{
+												"id": "trguywhw",
+												"text": "Elemen dasar",
+												"children": [
+													{
+														"id": "itxpefvy",
+														"text": "Format Penulisan",
+														"children": [
+															{
+																"id": "lwmcumbx",
+																"text": "&lt;b&gt; Bold (Tebal)"
+															},
+															{
+																"id": "gbacvlcd",
+																"text": "&lt;i&gt; Italic (MIring)"
+															},
+															{
+																"id": "kcfqjinc",
+																"text": "&lt;u&gt; Underline (Garisbawah)"
+															},
+															{
+																"id": "yvjfeqpv",
+																"text": "&lt;s&gt; Strikethrough (Coret)"
+															},
+															{
+																"id": "mltffojr",
+																"text": "&lt;sup&gt; Superscripted (Kecil diatas ala notasi dalam pangkat matematik)"
+															},
+															{
+																"id": "xydjioob",
+																"text": "&lt;sub&gt; Subscripted (Kecil dibawah ala notasi dalam jumlah atom kimia)"
+															}
+														]
+													},
+													{
+														"id": "zdmlndpi",
+														"text": "Sistem Paragraf",
+														"children": [
+															{
+																"id": "mltsajow",
+																"text": "&lt;h1&gt; (Untuk headline/tajukutama)"
+															},
+															{
+																"id": "sfqgjjld",
+																"text": "&lt;br&gt; (Untuk line break)"
+															},
+															{
+																"id": "ohijsrtm",
+																"text": "&lt;p&gt; (Paragraf)"
+															},
+															{
+																"id": "ixjoktet",
+																"text": "&lt;hr&gt; (HoRizontal break)"
+															}
+														]
+													},
+													{
+														"id": "atzlkxii",
+														"text": "*TestSingkat*"
+													},
+													{
+														"id": "tspedxgf",
+														"text": "Gambar",
+														"children": [
+															{
+																"id": "zlrfnywb",
+																"text": "&lt;img&gt; IMaGe"
+															}
+														]
+													},
+													{
+														"id": "bplomzho",
+														"text": "Link",
+														"children": [
+															{
+																"id": "uyrifkro",
+																"text": "&lt;a&gt; Hyperlink"
+															}
+														]
+													},
+													{
+														"id": "jnwpbkws",
+														"text": "*TestSingkat*"
+													},
+													{
+														"id": "cugztunx",
+														"text": "Daftar",
+														"children": [
+															{
+																"id": "fwmfnmxr",
+																"text": "&lt;ul&gt; Unordered List"
+															},
+															{
+																"id": "zdgpmvmr",
+																"text": "&lt;ol&gt; Ordered List"
+															},
+															{
+																"id": "tpticjpx",
+																"text": "*TestSingkat*"
+															}
+														]
+													},
+													{
+														"id": "ygxhaxcz",
+														"text": "Tabel",
+														"children": [
+															{
+																"id": "lzehemak",
+																"text": "Anatomi &lt;table&gt;, &lt;tr&gt; dan &lt;td&gt;",
+																"children": [
+																	{
+																		"id": "lnfotmum",
+																		"text": "*disertai 2 contoh*",
+																		"children": [
+																			{
+																				"id": "vaohesai",
+																				"text": "2 baris 3 kolom"
+																			},
+																			{
+																				"id": "idcyowgw",
+																				"text": "4 baris 5 kolom"
+																			}
+																		]
+																	}
+																]
+															},
+															{
+																"id": "vqibvaxe",
+																"text": "*Test Singkat*"
+															},
+															{
+																"id": "fsyigous",
+																"text": "&lt;table&gt;",
+																"children": [
+																	{
+																		"id": "btfvasrk",
+																		"text": "Border"
+																	}
+																]
+															},
+															{
+																"id": "hzwsswym",
+																"text": "&lt;tr&gt;",
+																"children": [
+																	{
+																		"id": "lgfdtiox",
+																		"text": "Rowspan"
+																	}
+																]
+															},
+															{
+																"id": "sfdwtqrn",
+																"text": "&lt;td&gt;",
+																"children": [
+																	{
+																		"id": "gamsonaj",
+																		"text": "Colspan"
+																	}
+																]
+															},
+															{
+																"id": "yhqzzhmu",
+																"text": "<span style=\"font-size: 11.2px;\">Anatomi &lt;table&gt;, &lt;tr&gt;, &lt;th&gt; dan &lt;td&gt;</span>"
+															},
+															{
+																"id": "abnnbwwn",
+																"text": "<span style=\"font-size: 11.2px;\">Anatomi &lt;table&gt;, &lt;thead&gt;, &lt;th&gt;, &lt;tbody&gt;, &lt;tr&gt; dan &lt;td&gt;</span>"
+															}
+														]
+													},
+													{
+														"id": "ypynmdfj",
+														"text": "Tambahan Header Lain",
+														"children": [
+															{
+																"id": "gummgtuk",
+																"text": "&lt;title&gt;"
+															},
+															{
+																"id": "vpqnksvl",
+																"text": "&lt;script&gt;"
+															},
+															{
+																"id": "pellmpct",
+																"text": "&lt;link&gt;"
+															},
+															{
+																"id": "fbybtigt",
+																"text": "&lt;style&gt;"
+															},
+															{
+																"id": "iwiciezr",
+																"text": "&lt;meta&gt;"
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "uetggjqe",
+										"text": "&gt;HTML3 &amp; CSS",
+										"children": [
+											{
+												"id": "mhbolxtk",
+												"text": "\"Sebuah pemahaman baru\"",
+												"children": [
+													{
+														"id": "yhycgjgb",
+														"text": "\"Gimana kalau...\"",
+														"children": [
+															{
+																"id": "zsjdhywl",
+																"text": "\"Semua elemen kita pandang sama\""
+															},
+															{
+																"id": "chtwiwkx",
+																"text": "\"HTML hanya memberi tahu 'di website itu apa dan letak-letaknya bagaimana?' bukannya 'kalau mau buat seperti A, pakai tag A. kalau mau buat seperti B, pakai tag B.'\""
+															},
+															{
+																"id": "whuqzuri",
+																"text": "\"HTML untuk itu dan yang mengatur bagaimana penampilannya adalah CSS\""
+															},
+															{
+																"id": "deosxtij",
+																"text": "\"CSS mempromosikan Code Reuse: Selain mempercantik tampilan dengan kaya rasa, bisa dipergunakan juga sebagai satu perubahan bisa mengubah banyak hal\""
+															}
+														]
+													},
+													{
+														"id": "eovfzxzp",
+														"text": "*demo gambar source code &lt;HTML3 vs &gt;HTML3*"
+													}
+												]
+											},
+											{
+												"id": "mxfboplw",
+												"text": "*demo \"Emangnya bisa bikin yang persis? Buktikan!\"*"
+											}
+										]
+									},
+									{
+										"id": "rfkkinej",
+										"text": "CSS",
+										"children": [
+											{
+												"id": "utrsoxgs",
+												"text": "3 pilihan cara memanggil CSS"
+											},
+											{
+												"id": "gzqnsgse",
+												"text": "Anatomi CSS"
+											},
+											{
+												"id": "emwrkcnw",
+												"text": "Jenis Selector",
+												"children": [
+													{
+														"id": "wdgotpjk",
+														"text": "Berdasarkan Selector"
+													},
+													{
+														"id": "hzypghse",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "tndlctdg",
+														"text": "Berdasarkan Lanjutannya"
+													},
+													{
+														"id": "kpelmrzm",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "nvdmsptr",
+														"text": "Selector Attribut"
+													},
+													{
+														"id": "cnezfejv",
+														"text": "*TestSingkat*"
+													}
+												]
+											},
+											{
+												"id": "sfkhhfba",
+												"text": "Properti yang sekiranya menarik"
+											},
+											{
+												"id": "feknzswt",
+												"text": "*TestSingkat*"
+											}
+										]
+									},
+									{
+										"id": "mdgednyz",
+										"text": "MySQL",
+										"children": [
+											{
+												"id": "rwnwxhnj",
+												"text": "Bagian dasar MySQL"
+											},
+											{
+												"id": "lxitorsa",
+												"text": "Tabel MySQL",
+												"children": [
+													{
+														"id": "kgsuehej",
+														"text": "*gambar*"
+													},
+													{
+														"id": "szwmdnzj",
+														"text": "Tiap Kolom"
+													},
+													{
+														"id": "wldksvgp",
+														"text": "Indeks",
+														"children": [
+															{
+																"id": "vgjbmpao",
+																"text": "Jenis"
+															},
+															{
+																"id": "rtgpvhlk",
+																"text": "Autoincrement sebagai penambah kecepatan indeks"
+															}
+														]
+													},
+													{
+														"id": "hbtpokms",
+														"text": "Relasi"
+													}
+												]
+											},
+											{
+												"id": "quxudesi",
+												"text": "Kueri MySQL",
+												"children": [
+													{
+														"id": "edxzogai",
+														"text": "Sintaks",
+														"children": [
+															{
+																"id": "hofdirtm",
+																"text": "Elemen",
+																"children": [
+																	{
+																		"id": "cotsckep",
+																		"text": "Kolom"
+																	},
+																	{
+																		"id": "uyyvaelw",
+																		"text": "String"
+																	},
+																	{
+																		"id": "iiadjyxb",
+																		"text": "*"
+																	}
+																]
+															}
+														]
+													},
+													{
+														"id": "jfwhnsru",
+														"text": "Definitif",
+														"children": [
+															{
+																"id": "imbvuxir",
+																"text": "Buat Database"
+															},
+															{
+																"id": "qkfcxlnh",
+																"text": "Buat Tabel"
+															},
+															{
+																"id": "tdrbiavq",
+																"text": "*TestSingkat*"
+															}
+														]
+													},
+													{
+														"id": "beuotaqm",
+														"text": "Manipulatif",
+														"children": [
+															{
+																"id": "rraoysmo",
+																"text": "Baca data"
+															},
+															{
+																"id": "jszqotpn",
+																"text": "*TestSingkat*"
+															},
+															{
+																"id": "yyrmkhjv",
+																"text": "Baca data + Where"
+															},
+															{
+																"id": "dyeaqfwn",
+																"text": "Tambah data + Keterangan kolom"
+															},
+															{
+																"id": "bbavaboq",
+																"text": "Tambah data tanpa keterangan kolom"
+															},
+															{
+																"id": "wurxvjkv",
+																"text": "*TestSingkat*"
+															},
+															{
+																"id": "eyqlijfy",
+																"text": "Ubah data pada tabel"
+															},
+															{
+																"id": "xztkkyem",
+																"text": "Hapus data pada tabel"
+															},
+															{
+																"id": "uckuyvnu",
+																"text": "*TestSingkat*"
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"id": "wzbqbvwy",
+										"text": "PHP Remastered",
+										"children": [
+											{
+												"id": "krwkpvvo",
+												"text": "Apa yang bakal anda temukan di PHP",
+												"children": [
+													{
+														"id": "ezxdkcva",
+														"text": "*gambar coding*"
+													},
+													{
+														"id": "fwqfufue",
+														"text": "Sekumpulan Instruksi yang Dijalankan dari Atas ke Bawah"
+													},
+													{
+														"id": "jrsxujlu",
+														"text": "*gambar lapisan ekspresi-statement*"
+													},
+													{
+														"id": "ckrdotfh",
+														"text": "<span style=\"font-size: 9.6px;\">*gambar lapisan ekspresi-statement ke-2*</span><br>"
+													},
+													{
+														"id": "coozirfu",
+														"text": "*gambar Runtime*"
+													}
+												]
+											},
+											{
+												"id": "ptwlfywq",
+												"text": "Cara masukin kode PHP"
+											},
+											{
+												"id": "aurehiyj",
+												"text": "Var_dump, teman baik para programmer PHP",
+												"children": [
+													{
+														"id": "nhufpkqf",
+														"text": "Pengenalan"
+													},
+													{
+														"id": "ypjmqzqc",
+														"text": "Tabel"
+													}
+												]
+											},
+											{
+												"id": "uljdjjqk",
+												"text": "Expression",
+												"children": [
+													{
+														"id": "rlhlirgh",
+														"text": "Pengenalan"
+													},
+													{
+														"id": "raluoweu",
+														"text": "Elemen",
+														"children": [
+															{
+																"id": "llzajafl",
+																"text": "Integer"
+															},
+															{
+																"id": "atdmhzuz",
+																"text": "String"
+															},
+															{
+																"id": "xiggbrax",
+																"text": "Float"
+															},
+															{
+																"id": "cskplpyh",
+																"text": "Boolean"
+															},
+															{
+																"id": "alxzkdwv",
+																"text": "Null"
+															},
+															{
+																"id": "fdiuxxfk",
+																"text": "Array"
+															},
+															{
+																"id": "chrtbbug",
+																"text": "Objek"
+															},
+															{
+																"id": "jmucljpk",
+																"text": "Variabel"
+															},
+															{
+																"id": "iswlnrnh",
+																"text": "Function"
+															},
+															{
+																"id": "zgztpxdw",
+																"text": "Class"
+															}
+														]
+													},
+													{
+														"id": "gsxqbhpr",
+														"text": "Aritmatik",
+														"children": [
+															{
+																"id": "chewsevo",
+																"text": "*KuisSingkat*"
+															}
+														]
+													},
+													{
+														"id": "hguyynad",
+														"text": "Perbandingan",
+														"children": [
+															{
+																"id": "svqohqfs",
+																"text": "*KuisSingkat*"
+															}
+														]
+													},
+													{
+														"id": "bqgasbjx",
+														"text": "Tambah/Kurang",
+														"children": [
+															{
+																"id": "bpsgfkax",
+																"text": "*KuisSingkat*"
+															}
+														]
+													},
+													{
+														"id": "gqzvcixo",
+														"text": "Logika",
+														"children": [
+															{
+																"id": "bbhnrrsc",
+																"text": "*KuisSingkat*"
+															}
+														]
+													},
+													{
+														"id": "dlffqndt",
+														"text": "String",
+														"children": [
+															{
+																"id": "mvhuftbh",
+																"text": "*KuisSingkat*"
+															}
+														]
+													},
+													{
+														"id": "ecfbrvkv",
+														"text": "Assignment Variabel Data Tunggal",
+														"children": [
+															{
+																"id": "raujlidn",
+																"text": "*KuisSingkat*"
+															}
+														]
+													},
+													{
+														"id": "qpflbhbs",
+														"text": "Assignment dan Pemanggilan Array",
+														"children": [
+															{
+																"id": "hswjdeju",
+																"text": "*KuisSingkat*"
+															}
+														]
+													}
+												]
+											},
+											{
+												"id": "cxoeascd",
+												"text": "Statement",
+												"children": [
+													{
+														"id": "axgruerz",
+														"text": "Kumpulan Ekspresi"
+													},
+													{
+														"id": "ytxohkde",
+														"text": "Echo"
+													},
+													{
+														"id": "ovrzsqyg",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "baezhepr",
+														"text": "If-Elseif-Else"
+													},
+													{
+														"id": "bggujmda",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "veejoyrg",
+														"text": "Switch"
+													},
+													{
+														"id": "jkkimlbp",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "sbvttknu",
+														"text": "While"
+													},
+													{
+														"id": "payezsvk",
+														"text": "For"
+													},
+													{
+														"id": "cvfsbikb",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "yaheelgo",
+														"text": "Foreach"
+													},
+													{
+														"id": "zvwjpbyy",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "xzqjumjc",
+														"text": "Include, Require, Include_once, Require_once"
+													},
+													{
+														"id": "oeatdudr",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "fxyobjod",
+														"text": "Komentar"
+													}
+												]
+											},
+											{
+												"id": "tngncaqk",
+												"text": "Variabel Reserved",
+												"children": [
+													{
+														"id": "ugilpdvi",
+														"text": "*KuisSingkat*"
+													}
+												]
+											},
+											{
+												"id": "blausxwz",
+												"text": "Function",
+												"children": [
+													{
+														"id": "zvmajbbk",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "bycfpuzh",
+														"text": "*TestSingkat*"
+													}
+												]
+											},
+											{
+												"id": "pmnrvwuc",
+												"text": "Studi Kasus Code Reusability"
+											},
+											{
+												"id": "irxwgukh",
+												"text": "Class &amp; Object",
+												"children": [
+													{
+														"id": "vusvproc",
+														"text": "Pengenalan"
+													},
+													{
+														"id": "xbrcbiaa",
+														"text": "Membuat sebuah class"
+													},
+													{
+														"id": "zgbxamhl",
+														"text": "*TestSingkat*"
+													},
+													{
+														"id": "acxtupfd",
+														"text": "Akses Properti dan Method"
+													},
+													{
+														"id": "weubvoff",
+														"text": "Akses Properti dan Method dari Luar beserta contohnya"
+													},
+													{
+														"id": "vwrbavtp",
+														"text": "Akses Properti dan Method dari Dalam<br>"
+													},
+													{
+														"id": "lwpntxby",
+														"text": "Gambaran Besar dari Akses Properti dan Method lewat dalam maupun Luar"
+													},
+													{
+														"id": "aafvgkbt",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "qbkjqktm",
+														"text": "*TestSingkat*"
+													}
+												]
+											},
+											{
+												"id": "mijvpkun",
+												"text": "PDO",
+												"children": [
+													{
+														"id": "gtvnwrsx",
+														"text": "Pengenalan"
+													},
+													{
+														"id": "nulclrlp",
+														"text": "New"
+													},
+													{
+														"id": "wuyxsyxn",
+														"text": "Query"
+													},
+													{
+														"id": "ryzjvlrj",
+														"text": "*KuisSingkat*"
+													},
+													{
+														"id": "femujbeb",
+														"text": "*TestSingkat*"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
