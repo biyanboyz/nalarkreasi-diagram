@@ -12,7 +12,12 @@ define(['treeCalculator', 'text!./app.html'], function(treeCalculator, template)
 	  },
 	  created: function(){
 		this.$http.get(this.datasource).then(function(response){
-			var treeCalculated = treeCalculator.calculate(response.data.root);
+			var data = response.data.root;
+			var dataFirstThree = data;
+			dataFirstThree.children.forEach(function(fv, fk){
+				fv.children={};
+			});
+			var treeCalculated = treeCalculator.calculate(dataFirstThree);
 			this.diagram.nodes = treeCalculated.nodes;
 			this.diagram.links = treeCalculated.links;
 		});
