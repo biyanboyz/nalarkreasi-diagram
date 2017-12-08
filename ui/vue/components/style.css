@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	overflow: hidden;
+}
+
+.app{
+	position:relative;
+	width:100vw;
+	height:100vh;
+}
+
+.diagram{
+	position:absolute;
+	left:0;
+	top:0;
+	border:dotted 1px black; 
+	width:100vw; 
+	height:100vh
+}
+
+.slide{
+	pointer-events: none;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+.slideActive{
+	display: block;
+}
+.slideInactive{
+	display: none;
+}
+
+.slideFader{
+	width:100%;
+	height:100%;
+	background: #AAAAAAAA;
+}
+.slideFaderActive{
+	display: block;
+}
+.slideFaderInactive{
+	display: none;
+}
+
+.slidePaneContainer{
+	width:100%;
+	height:100%;
+	display: flex;	
+	align-items: center;
+	justify-content: center;
+}
+
+.slidePane{
+	width:90%;
+	height:80%;
+	background: #DDFFDD;
+}

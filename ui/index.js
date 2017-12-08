@@ -9,7 +9,8 @@ require([
 	'./vue/components/app/app', 
 	'./vue/components/diagram/diagram', 
 	'./vue/components/node/node', 
-	'./vue/components/graph/graph'
+	'./vue/components/graph/graph',
+	'./vue/components/slide/slide'
 ], function(
 		panZoom,
 		vueComponent_app,
@@ -17,7 +18,7 @@ require([
 		vueComponent_node,
 		vueComponent_graph
 	){
-	new Vue({
+	app = new Vue({
 	  el: '#app',
 	  components: {
 		  vueComponent_app,

@@ -1,1 +1,7 @@
-<diagram :nodes="diagram.nodes" :links="diagram.links" />
+<div class="app">
+	<diagram :nodeClicked="nodeClicked" :nodes="diagram.nodes" :links="diagram.links"></diagram>
+	<slide 
+		:isActive=false
+		:attachment="slide"
+	></slide>
+</div>
