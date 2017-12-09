@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<title>Nalarkreasi Diagram</title>
 		<script src="./vue/vue.js"></script>
 		<script src="./vue/vue-resource.js"></script>
 		<script src="./library/svg-pan-zoom.js"></script>
@@ -8,7 +9,10 @@
 	</head>
 	<body>
 		<div id="app">
-			<app datasource="../api/diagram.json"/>
+			<app 
+				datasource="../api/diagram.json"
+				isEdit=false
+			/>
 		</div>
 	</body>
 	<script>

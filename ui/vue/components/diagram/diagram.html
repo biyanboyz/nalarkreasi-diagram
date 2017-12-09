@@ -1,4 +1,4 @@
 <svg class="diagram" viewbox="0 0 100 100">
 	<graph v-for="graph in links" :source="graph.source" :target="graph.target"/>
-	<g v-for="node in nodes" @click='nodeClicked(node)'><node :x="node.x" :y="node.y" :title="node.text" :slideAddress="node.slideAddress"/></g>
+	<node v-for="node in nodes" @click='nodeClicked(node)' :isLink="slideAddress? true:false" :x="node.x" :y="node.y" :title="node.text" :slideAddress="node.slideAddress" :isEdit="isEdit"/>
 </svg>

@@ -1,7 +1,10 @@
 define(['treeCalculator', 'text!./app.html'], function(treeCalculator, template) {
 	Vue.component("app", {
 	  template: template,
-	  props: ['datasource'],
+	  props: [
+		'datasource',
+		'isEdit'
+	  ],
 	  data: function() {
 	    return {
 			"diagram" : {
