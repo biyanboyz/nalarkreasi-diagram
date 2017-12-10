@@ -23,6 +23,39 @@
 						]
 					}
 				]
+			},
+			{
+				"text": "Garis Besar Kesinambungan Satu Sama Lain",
+				"slideAddress": "pweb/garisbesar"
+			},
+			{
+				"text": "HTTP",
+				"children": [
+					{
+						"text": "Protokol",
+						"slideAddress": "pweb/http/protokol"
+					},
+					{
+						"text": "Hypertext",
+						"slideAddress": "pweb/http/hypertext"
+					},
+					{
+						"text": "HTTP",
+						"slideAddress": "pweb/http/http"
+					},
+					{
+						"text": "Protokol File://",
+						"slideAddress": "pweb/http/file"
+					},
+					{
+						"text": "Perbedaan HTTP dan File://",
+						"slideAddress": "pweb/http/httpvsfile"
+					},
+					{
+						"text": "Konfigurasi Web Server",
+						"slideAddress": "pweb/http/konfigurasiwebserver"
+					}
+				]
 			}
 		]
 	}

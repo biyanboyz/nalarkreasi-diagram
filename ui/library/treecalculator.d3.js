@@ -4,16 +4,20 @@ define(['text!./vue/components/node/node.html', './library/d3.v3.min'], function
 			var marginH = 150;
 			var marginV = 30;
 			
-			var baseNode = document.createElementNS("http://www.w3.org/2000/svg","svg");
-			baseNode.innerHTML = baseNodeTemplate;
-			baseNode.style.position = "fixed";
-			baseNode.style.left = "0";
-			baseNode.style.top = "0";
-			baseNode.style.visibility = "hidden";
-			document.body.appendChild(baseNode);
+			var baseNodeBlueprintId = "blueprintDiagramNode";
+			var baseNode = document.querySelector("#"+baseNodeBlueprintId);
+			if(!baseNode){
+				baseNode = document.createElementNS("http://www.w3.org/2000/svg","svg");
+				baseNode.id = baseNodeBlueprintId;
+				baseNode.innerHTML = baseNodeTemplate;
+				baseNode.style.position = "fixed";
+				baseNode.style.left = "0";
+				baseNode.style.top = "0";
+				baseNode.style.visibility = "hidden";
+				document.body.appendChild(baseNode);
+			}
 			var nodeH = baseNode.getBBox().width;
 			var nodeW = baseNode.getBBox().height;
-		
 			var tree = d3.layout.tree()
 					.nodeSize([nodeH+marginV, nodeW+marginH]);
 			var nodes = tree.nodes(fparam_nodeTree).reverse();

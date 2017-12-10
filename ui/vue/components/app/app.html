@@ -1,7 +1,9 @@
 <div class="app">
-	<diagram :isEdit="isEdit" :nodeClicked="nodeClicked" :nodes="diagram.nodes" :links="diagram.links"></diagram>
+	<svg class="svgPanZoom diagram">
+		<diagram :isEdit="isEdit" :nodeClicked="nodeClicked" :nodeExpand="nodeExpanded" :nodes="diagram.nodes" :links="diagram.links"></diagram>
+	</svg>
 	<slide 
-		:isActive=false
-		:attachment="slide"
+			:isActive=false
+			:attachment="slide"
 	></slide>
 </div>

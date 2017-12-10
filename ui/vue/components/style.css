@@ -15,7 +15,8 @@ body{
 	top:0;
 	border:dotted 1px black; 
 	width:100vw; 
-	height:100vh
+	height:100vh;
+	overflow:visible;
 }
 
 .slide{

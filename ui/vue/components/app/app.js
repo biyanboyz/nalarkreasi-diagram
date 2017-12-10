@@ -8,6 +8,9 @@ define(['treeCalculator', 'text!./app.html'], function(treeCalculator, template)
 	  data: function() {
 	    return {
 			"diagram" : {
+				"data": null,
+				"runtimeIdData": null,
+				"runtimeData": null,
 				"nodes": null,
 				"links": null,
 				"commandHistory": {
@@ -37,21 +40,87 @@ define(['treeCalculator', 'text!./app.html'], function(treeCalculator, template)
 				  this.slide.commandHistory.currentCommand = this.slide.commandHistory.chain[this.slide.commandHistory.position];
 			  });
 		  },
+		  treeCalculate: function(fparam_runtimeData){
+			  var data = JSON.parse(JSON.stringify(fparam_runtimeData));
+			  return treeCalculator.calculate(data);
+		  },
+		  applyTree: function(fparam_calculatedTree){
+			this.diagram.nodes = fparam_calculatedTree.nodes;
+			this.diagram.links = fparam_calculatedTree.links;
+		  },
+		  applyPan: function(){
+			  /* todo : tdebt : urutan function */
+			  let target = this.$el.querySelector(".svgPanZoom");
+			  let zoomConst = 10000000;
+			  setTimeout(function(){
+				svgPanZoom(target, {
+					maxZoom: 1*zoomConst,
+					minZoom: 1/zoomConst
+				})
+			  }, 100);
+		  },
+		  reload: function(){
+			  /* todo : tdebt : mana nih, struktur yg bener */
+			  /* todo : tdebt : jadi sebenernya decoupling tanpa this atau full parameter? */
+			  /* todo : tdebt : urutan modul dan modularisasi */
+			  /* todo : tdebt : wacana react-vue interop? */
+			  this.applyTree(this.treeCalculate(this.diagram.runtimeData));
+			  this.applyPan();
+		  },
 		  nodeClicked: function(fparam_node){
 			  this.openSlide(fparam_node.slideAddress);
+		  },
+		  findNodeByRuntimeId: function(fparam_node, fparam_runtimeId){
+			  /* todo : tdebt : auto inc id vs. uuid vs. uuid tapi di file diagram */
+			  /* todo : tdebt : aturan urutannya gmn? udah bener penulisan fungsinya? */
+			  var freturn = null;
+			  var endLoop = false;
+			  const recursion = function(fparam_frecurse, fparam_node, fparam_runtimeId){
+				  if(!endLoop){
+					  if(fparam_node.runtimeId==fparam_runtimeId){
+						  freturn = fparam_node;
+						  endLoop = true;
+					  }
+					  else{					  
+						  if(fparam_node.children && fparam_node.children.length) fparam_node.children.forEach(function(fv, fk){
+							  fparam_frecurse(fparam_frecurse, fv, fparam_runtimeId);
+						  });
+					  }
+				  }
+			  };
+			  recursion(recursion, fparam_node, fparam_runtimeId);
+			  return freturn;
+		  },
+		  nodeExpanded: function(fparam_id){
+			  var original = this.findNodeByRuntimeId(this.diagram.runtimeIdData, fparam_id);
+			  var current = this.findNodeByRuntimeId(this.diagram.runtimeData, fparam_id);
+			  current.children = original.children;
+			  this.reload();
 		  }
 	  },
 	  created: function(){
 		this.$http.get(this.datasource).then(function(response){
-			var data = response.data.root;
-			var dataFirstThree = data;
-			dataFirstThree.children.forEach(function(fv, fk){
+			this.diagram.data = response.data.root;
+			this.diagram.runtimeIdData = JSON.parse(JSON.stringify(this.diagram.data));
+			var runtimeIds = {count:0};
+			const recursivelyAssignId = function(fparam_recursivelyAssignId, fparam_runtimeIds, fparam_object){
+				fparam_object.runtimeId = fparam_runtimeIds.count;
+				fparam_runtimeIds.count++;
+				if(fparam_object.children && fparam_object.children.length>=0) fparam_object.children.forEach(function(fv, fk){
+					fparam_recursivelyAssignId(fparam_recursivelyAssignId, fparam_runtimeIds, fv);
+				});
+			};
+			recursivelyAssignId(recursivelyAssignId, runtimeIds, this.diagram.runtimeIdData);
+			this.diagram.runtimeData = JSON.parse(JSON.stringify(this.diagram.runtimeIdData));
+			this.diagram.runtimeData.children.forEach(function(fv, fk){
 				fv.children={};
 			});
-			var treeCalculated = treeCalculator.calculate(dataFirstThree);
-			this.diagram.nodes = treeCalculated.nodes;
-			this.diagram.links = treeCalculated.links;
+			this.applyTree(this.treeCalculate(this.diagram.runtimeData));
 		});
+	  },
+	  /* todo : tdebt : perlukah created-mounted digabung */
+	  mounted: function(){
+		  this.applyPan();
 	  }
 	});
 });
