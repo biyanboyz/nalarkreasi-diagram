@@ -1,6 +1,6 @@
 <div class="app">
 	<svg class="svgPanZoom diagram">
-		<diagram :isEdit="isEdit" :nodeClicked="nodeClicked" :nodeExpand="nodeExpanded" :nodes="diagram.nodes" :links="diagram.links"></diagram>
+		<diagram :isEdit="isEdit" :nodeClicked="nodeClicked" :nodeExpandAll="nodeExpandedAll" :nodeExpand="nodeExpanded" :nodeCollapse="nodeCollapsed" :nodes="diagram.nodes" :links="diagram.links"></diagram>
 	</svg>
 	<slide 
 			:isActive=false
