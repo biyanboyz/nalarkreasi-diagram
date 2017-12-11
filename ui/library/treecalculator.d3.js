@@ -30,7 +30,12 @@ define(['text!./vue/components/node/node.html', './library/d3.v3.min'], function
 			});
 			var links = tree.links(nodes);
 			links = links.map(function(fparam_graph){
+				var relatedObject = null;
+				nodes.forEach(function(fv, fk){
+					if(fparam_graph.target.x==fv.x && fparam_graph.target.y==fv.y) relatedObject=fv;
+				});
 				return {
+					relatedObject: relatedObject,
 					source:{
 						x: fparam_graph.source.x+100,
 						y: fparam_graph.source.y+20

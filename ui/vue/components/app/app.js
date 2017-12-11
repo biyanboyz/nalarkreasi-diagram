@@ -92,10 +92,24 @@ define(['treeCalculator', 'text!./app.html'], function(treeCalculator, template)
 			  return freturn;
 		  },
 		  nodeExpanded: function(fparam_id){
-			  var original = this.findNodeByRuntimeId(this.diagram.runtimeIdData, fparam_id);
-			  var current = this.findNodeByRuntimeId(this.diagram.runtimeData, fparam_id);
-			  current.children = original.children;
+			  var node = this.findNodeByRuntimeId(this.diagram.runtimeData, fparam_id);
+			  if(node.children && node.children.length){
+				  node.children.forEach(function(fv, fk){
+					  fv.hidden=false;
+				  });
+			  }
 			  this.reload();
+		  },
+		  recurseNode: function(fparam_node, fparam_function){
+			  let recursion = function(fparam_recursion, fparam_node, fparam_function){
+				  fparam_function(fparam_node);
+				  if(fparam_node.children && fparam_node.children.length){
+					  fparam_node.children.forEach(function(fv, fk){
+						  fparam_recursion(fparam_recursion, fv, fparam_function);
+					  });
+				  }
+			  };
+			  recursion(recursion, fparam_node, fparam_function);
 		  }
 	  },
 	  created: function(){
@@ -112,10 +126,17 @@ define(['treeCalculator', 'text!./app.html'], function(treeCalculator, template)
 			};
 			recursivelyAssignId(recursivelyAssignId, runtimeIds, this.diagram.runtimeIdData);
 			this.diagram.runtimeData = JSON.parse(JSON.stringify(this.diagram.runtimeIdData));
-			this.diagram.runtimeData.children.forEach(function(fv, fk){
+			/*this.diagram.runtimeData.children.forEach(function(fv, fk){
 				fv.children={};
-			});
-			this.applyTree(this.treeCalculate(this.diagram.runtimeData));
+			});*/
+			var recurseNode = this.recurseNode;
+			recurseNode(this.diagram.runtimeData, function(fparam_node){fparam_node.hidden=false});
+			this.diagram.runtimeData.children.forEach(function(fv, fk){ if(fv.children && fv.children.length) fv.children.forEach(function(fv2, fk2){
+				recurseNode(fv2, function(fparam_node){
+					fparam_node.hidden = true;
+				});
+			})});
+			this.reload();
 		});
 	  },
 	  /* todo : tdebt : perlukah created-mounted digabung */
