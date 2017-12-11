@@ -91,14 +91,35 @@ define(['treeCalculator', 'text!./app.html'], function(treeCalculator, template)
 			  recursion(recursion, fparam_node, fparam_runtimeId);
 			  return freturn;
 		  },
-		  nodeExpanded: function(fparam_id){
+		  nodeExpandCollapse: function(fparam_id, fparam_boolean){
 			  var node = this.findNodeByRuntimeId(this.diagram.runtimeData, fparam_id);
 			  if(node.children && node.children.length){
 				  node.children.forEach(function(fv, fk){
-					  fv.hidden=false;
+					  fv.hidden=fparam_boolean;
 				  });
 			  }
 			  this.reload();
+		  },
+		  nodeExpandCollapseRecursive: function(fparam_id, fparam_boolean){
+			  var recurseNode = this.recurseNode;
+			  var node = this.findNodeByRuntimeId(this.diagram.runtimeData, fparam_id);
+			  if(node.children && node.children.length){
+				  node.children.forEach(function(fv, fk){
+					  recurseNode(fv, function(fparam_node){
+						  fparam_node.hidden=fparam_boolean;
+					  });
+				  });
+			  }
+			  this.reload();
+		  },
+		  nodeExpandedAll: function(fparam_id){
+			  this.nodeExpandCollapseRecursive(fparam_id, false);
+		  },
+		  nodeExpanded: function(fparam_id){
+			  this.nodeExpandCollapse(fparam_id, false);
+		  },
+		  nodeCollapsed: function(fparam_id){
+			  this.nodeExpandCollapseRecursive(fparam_id, true);
 		  },
 		  recurseNode: function(fparam_node, fparam_function){
 			  let recursion = function(fparam_recursion, fparam_node, fparam_function){

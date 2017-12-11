@@ -1,4 +1,4 @@
 <svg class="diagram" viewbox="0 0 100 100">
 	<graph v-for="graph in links" v-show="!graph.relatedObject.hidden" :source="graph.source" :target="graph.target"/>
-	<node v-for="node in nodes" v-show="!node.hidden" @click='nodeClicked(node)' :runtimeId='node.runtimeId' :nodeExpand='nodeExpand' :isLink="node.slideAddress? true:false" :x="node.x" :y="node.y" :title="node.text" :slideAddress="node.slideAddress" :isEdit="isEdit"/>
+	<node v-for="node in nodes" v-show="!node.hidden" @click='nodeClicked(node)' :runtimeId='node.runtimeId' :nodeExpandAll='nodeExpandAll' :nodeExpand='nodeExpand' :nodeCollapse='nodeCollapse' :isLink="node.slideAddress? true:false" :x="node.x" :y="node.y" :title="node.text" :slideAddress="node.slideAddress" :isEdit="isEdit"/>
 </svg>

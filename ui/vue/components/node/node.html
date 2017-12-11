@@ -18,19 +18,23 @@
 		</a>
 	</g>
 	<g transform="translate(-15, -7.5) scale(0.65, 0.65)">		
-		<g transform="translate(155, 80)"><circle cy="10" cx="10" r="10"></circle>
-			<path fill="orange" stroke="orange" d="M10.5,5L17,10L10.5,15L10.5,5Z"></path>
-			<path fill="orange" stroke="orange" d="M5.5,5L12,10L5.5,15L5.5,5Z"></path>
-		</g>
+		<a href="#" @click="nodeExpandedAll">
+			<g transform="translate(155, 80)"><circle cy="10" cx="10" r="10"></circle>
+				<path fill="orange" stroke="orange" d="M10.5,5L17,10L10.5,15L10.5,5Z"></path>
+				<path fill="orange" stroke="orange" d="M5.5,5L12,10L5.5,15L5.5,5Z"></path>
+			</g>
+		</a>
 		<a href="#" @click="nodeExpanded">
 			<g transform="translate(130, 80)"><circle cy="10" cx="10" r="10"></circle>
 				<path fill="orange" stroke="orange" d="M7.5,5L14,10L7.5,15L7.5,5Z"></path>
 			</g>
 		</a>
-		<g transform="translate(105, 80)">
-			<circle cy="10" cx="10" r="10"></circle>
-			<path fill="orange" stroke="orange" d="M12,5L5.5,10L12,15L12,5Z"></path>
-		</g>
+		<a href="#" @click="nodeCollapsed">
+			<g transform="translate(105, 80)">
+				<circle cy="10" cx="10" r="10"></circle>
+				<path fill="orange" stroke="orange" d="M12,5L5.5,10L12,15L12,5Z"></path>
+			</g>
+		</a>
 	</g>
 	<g v-if="isEdit" transform="translate(-15, -7.5) scale(0.65, 0.65)">
 		<g transform="translate(155, 105)">
