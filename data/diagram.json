@@ -1,0 +1,307 @@
+{
+	"root": {
+		"text": "nalarkreasi",
+		"children": [
+			{
+				"text": "Pemrograman Web",
+				"children": [
+					{
+						"text": "Kenapa Web?",
+						"children": [
+							{
+								"text": "Gambaran Besar",
+								"slideAddress": "pweb/kenapaweb/gambaranbesar"
+							},
+							{
+								"text": "Hassle free, \"tanpa install\"",
+								"slideAddress": "pweb/kenapaweb/hasslefreetanpainstall"
+							},
+							{
+								"text": "Truly WORA",
+								"slideAddress": "pweb/kenapaweb/trulyanytimeanywhere"
+							},
+							{
+								"text": "Truly anytime, anywhere",
+								"slideAddress": "pweb/kenapaweb/trulyanytimeanywhere"
+							},
+							{
+								"text": "Koding tampilan tidak dalam bentuk OOP yang rumit",
+								"slideAddress": "pweb/kenapaweb/hasslefreetanpainstall"
+							},
+							{
+								"text": "Mulai dan iterate terhitung cepat",
+								"slideAddress": "pweb/kenapaweb/hasslefreetanpainstall"
+							},
+							{
+								"text": "Mengajari anda teknik komunikasi Request-Response Protokol HTTP",
+								"slideAddress": "pweb/kenapaweb/hasslefreetanpainstall"
+							},
+							{
+								"text": "Memberi gambaran seberapa pentingnya Skalabilitas",
+								"slideAddress": "pweb/kenapaweb/hasslefreetanpainstall"
+							}
+						]
+					},
+					{
+						"text": "Garis Besar Kesinambungan Satu Sama Lain",
+						"slideAddress": "pweb/garisbesar"
+					},
+					{
+						"text": "HTTP",
+						"children": [
+							{
+								"text": "Protokol",
+								"slideAddress": "pweb/http/protokol"
+							},
+							{
+								"text": "Hypertext",
+								"slideAddress": "pweb/http/hypertext"
+							},
+							{
+								"text": "HTTP",
+								"slideAddress": "pweb/http/http"
+							},
+							{
+								"text": "Protokol File://",
+								"slideAddress": "pweb/http/file"
+							},
+							{
+								"text": "Perbedaan HTTP dan File://",
+								"slideAddress": "pweb/http/httpvsfile"
+							},
+							{
+								"text": "Konfigurasi Web Server",
+								"slideAddress": "pweb/http/konfigurasiwebserver"
+							}
+						]
+					},
+					{
+						"text": "Bahasa Markah dan SGML",
+						"children": [
+							{
+								"text": "Bahasa Markah",
+								"children": [
+									{
+										"text": "Pengenalan",
+										"slideAddress": "pweb/bhsmarkahdansgml/bahasamarkah/pengenalan"
+									}
+								]
+							},
+							{
+								"text": "SGML",
+								"children": [
+									{
+										"text": "Pengenalan",
+										"slideAddress": "pweb/bhsmarkahdansgml/sgml/pengenalan"
+									},
+									{
+										"text": "Anatomi SGML",
+										"slideAddress": "pweb/bhsmarkahdansgml/sgml/anatomi"
+									},
+									{
+										"text": "Elemen Kosong",
+										"slideAddress": "pweb/bhsmarkahdansgml/sgml/elemenkosong"
+									},
+									{
+										"text": "Attribut",
+										"slideAddress": "pweb/bhsmarkahdansgml/sgml/attribut"
+									},
+									{
+										"text": "Kapan harus pakai/tidak pakai Atribut?",
+										"slideAddress": "pweb/bhsmarkahdansgml/sgml/attribut"
+									},
+									{
+										"text": "Jelajah Anatomi SGML",
+										"slideAddress": "pweb/bhsmarkahdansgml/sgml/jelajahanatomisgml"
+									}
+								]
+							}
+						]
+					},
+					{
+						"text": "HTML & CSS",
+						"children": [
+							{
+								"text": "<HTML3",
+								"children": [
+									{
+										"text": "Pengenalan"
+									},
+									{
+										"text": "Contoh Web Pada Awal Mulanya",
+										"children": [
+											{
+												"text": "Pertama, Yahoo! pada 25 Oktober 1996"
+											},
+											{
+												"text": "Kedua, Yahoo! pada 1 Februari 1997"
+											},
+											{
+												"text": "Ketiga, MSN pada 29 Februari 2000"
+											},
+											{
+												"text": "Keempat, MSN pada 1 April 2002"
+											}
+										]
+									},
+									{
+										"text": "Bentuk Baku"
+									},
+									{
+										"text": "Elemen Dasar",
+										"children": [
+											{
+												"text": "Pengenalan"
+											},
+											{
+												"text": "Format Penulisan"
+											},
+											{
+												"text": "Sistem Paragraf"
+											},
+											{
+												"text": "Gambar"
+											},
+											{
+												"text": "Link"
+											},
+											{
+												"text": "Daftar"
+											},
+											{
+												"text": "Tabel"
+											},
+											{
+												"text": "Keterangan Head"
+											},
+											{
+												"text": "Test/Demo Elemen"
+											}
+										]
+									}
+								]
+							},
+							{
+								"text": ">HTML3 & CSS",
+								"children": [
+									{
+										"text": "Pengenalan",
+										"children": [
+											{
+												"text": "Perubahan Gaya Pandang Baru akan HTML"
+											},
+											{
+												"text": "Penyebab akan Perubahan Gaya Pandang",
+												"children": [
+													{
+														"text": "Bisakah sourcecode HTML lebih ramping?"
+													},
+													{
+														"text": "Bisakah sourcecode HTML sebagai perantara semantik?"
+													},
+													{
+														"text": "Bisakah mengubah keseluruhan penampilan HTML melalui satu tempat?"
+													},
+													{
+														"text": "Bisakah tercipta sourcecode HTML yang kemampuan fitur penampilan visualnya seragam dari satu browser ke yang lain?"
+													}
+												]
+											},
+											{
+												"text": "<HTML3 vs >HTML3"
+											},
+											{
+												"text": "Tag Deprecated"
+											}
+										]
+									},
+									{
+										"text": "CSS",
+										"children": [
+											{
+												"text": "Pengenalan"
+											},
+											{
+												"text": "Cara memasukkan CSS pada HTML"
+											},
+											{
+												"text": "Anatomi CSS"
+											},
+											{
+												"text": "Selector"
+											},
+											{
+												"text": "Properti"
+											},
+											{
+												"text": "Box Model"
+											},
+											{
+												"text": "Display pada Element"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"text": "MySQL",
+						"children": [
+							{
+								"text": "Kenapa?"
+							},
+							{
+								"text": "Pengenalan"
+							},
+							{
+								"text": "Anatomi Database"
+							},
+							{
+								"text": "Anatomi Tabel"
+							},
+							{
+								"text": "Materi Lanjutan"
+							}
+						]
+					},
+					{
+						"text": "PHP",
+						"children": [
+							{
+								"text": "Apa yang bakal anda temukan di PHP"
+							},
+							{
+								"text": "Cara masukin kode PHP"
+							},
+							{
+								"text": "Var_dump, teman baik para programmer PHP"
+							},
+							{
+								"text": "Expression"
+							},
+							{
+								"text": "Statement"
+							},
+							{
+								"text": "Variabel Reserved"
+							},
+							{
+								"text": "Function"
+							},
+							{
+								"text": "Studi Kasus Code Reusability"
+							},
+							{
+								"text": "Class & Object"
+							},
+							{
+								"text": "PDO"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

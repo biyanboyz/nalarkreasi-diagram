@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Nalarkreasi Diagram - JSONEditor</title>
+		<link href="../lib/jsoneditor//jsoneditor.css" rel="stylesheet" type="text/css">
+		<script src="../lib/ajax.min.js"></script>
+		<script src="../lib/jsoneditor/jsoneditor.js"></script>
+		<style>
+		html, body {
+		  margin: 0;
+		  font: 11pt sans-serif;
+		}
+		#jsoneditor {
+		  width: 100vw;
+		  height: 90vh;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="jsoneditor"></div>
+		<script>
+			var editor = new JSONEditor(document.getElementById('jsoneditor'));
+			ajax.get("/read").then(function(response){
+				editor.setText(response)
+			});
+		</script>
+	</body>
+</html>
+
+

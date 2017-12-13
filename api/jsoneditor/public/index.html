@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Nalarkreasi Diagram - JSONEditor</title>
+		<link href="./library/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="./library/jsoneditor/jsoneditor.css" rel="stylesheet" type="text/css">
+		<script src="./library/jsoneditor/jsoneditor.js"></script>
+	</head>
+	<body style="margin: 0px">
+		<div>
+			<div style="display:flex; align-items: center; height: 10vh; padding:10px;">
+				<button onclick="save()" class="btn btn-primary">Save</button>
+				<button onclick="load()" class="btn btn-primary" style="margin-left:5px;">Load</button>
+			</div>
+			<div id="jsoneditor" style="width: 100vw; height: 90vh;"></div>
+		</div>
+		<script>
+			var editor = new JSONEditor(document.getElementById('jsoneditor'));
+			function load(){
+				var xhrRead = new XMLHttpRequest();
+				xhrRead.onreadystatechange = function(){
+					if(this.readyState==4 && this.status==200) editor.setText(this.responseText);
+				}
+				xhrRead.open("GET", "./read", false); xhrRead.send();
+			}
+			function save(){
+				var xhrSave = new XMLHttpRequest();
+				var xhrSaveParams = editor.getText();
+				xhrSave.open("POST", "./update", false); 
+				xhrSave.setRequestHeader("Content-Type", "application/json");
+				xhrSave.send(xhrSaveParams);
+			}
+			load();
+		</script>
+	</body>
+</html>
+
+

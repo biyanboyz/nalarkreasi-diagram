@@ -18,8 +18,15 @@ define(['text!./vue/components/node/node.html', './library/d3.v3.min'], function
 			}
 			var nodeH = baseNode.getBBox().width;
 			var nodeW = baseNode.getBBox().height;
-			var tree = d3.layout.tree()
-					.nodeSize([nodeH+marginV, nodeW+marginH]);
+			var tree = d3.layout.tree() /*d3.layout.cluster()*/
+					.nodeSize([nodeH+marginV, nodeW+marginH])
+					.separation(function(a, b) {
+					  var siblingMostChildren = 0;
+					  if(a.parent.children && a.parent.children.length) a.parent.children.forEach(function(fv, fk){
+						  if(fv.children && fv.children.length>siblingMostChildren) siblingMostChildren=fv.children.length;
+					  });
+					  return (a.parent==b.parent ? 1 : 1);
+					});
 			var nodes = tree.nodes(fparam_nodeTree).reverse();
 			nodes = nodes.map(function(fparam_node){
 				let originalX = fparam_node.x;

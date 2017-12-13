@@ -1,0 +1,8 @@
+{
+	"name": "nalarkreasi-diagram",
+	"version": "0.0.1",
+	"start": "pm2 start server.js",
+	"dependencies": {
+		"body-parser": ">1.0.0"
+	}
+}

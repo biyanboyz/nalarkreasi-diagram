@@ -1,0 +1,5 @@
+{
+	"name": "nalarkreasi-diagram-jsoneditor",
+	"version": "0.0.1",
+	"start": "pm2 start server.js"
+}
